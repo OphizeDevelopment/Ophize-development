@@ -10,6 +10,7 @@ import Financeherosection from "./Pages/Financeandaccounts";
 import Homepage from "./Pages/Homepage";
 import Logistics from "./Pages/Logistics";
 import Itsecurity from "./Pages/Itsecurity";
+import BusinessCompilance from "./Pages/Businesscompliance";
 
 import Pagenotfound from "./Components/pagenotfound";
 import Underconstruction from "./Components/underconstruction";
@@ -18,6 +19,8 @@ import Clients from "./Components/clients";
 import Contactus from "./Components/contactus";
 import Footer from "./Components/footer";
 import { useEffect } from "react";
+import SolutionsHr from "./Components/HumenResource/SolutionsHr";
+import Humanresource from "./Pages/HumanResources";
 
 const CommonComponents = () => {
   const location = useLocation();
@@ -27,6 +30,8 @@ const CommonComponents = () => {
     "/financeandaccounts",
     "/logisticsdocumentation",
     "/itandsecurity",
+    "/businesscompliance",
+    "/humanresource",
   ];
 
   if (!definedPaths.includes(location.pathname)) {
@@ -68,6 +73,9 @@ const App = () => {
           <Route path="/logisticsdocumentation" element={<Logistics />} />
           <Route path="/itandsecurity" element={<Itsecurity />} />
           <Route path="/underconstruction" element={<Underconstruction />} />
+          <Route path="/businesscompliance" element={<BusinessCompilance />} />
+          <Route path="/humanresource" element={<Humanresource/>} />
+
           <Route path="*" element={<Pagenotfound />} />
         </Routes>
         <CommonComponents />

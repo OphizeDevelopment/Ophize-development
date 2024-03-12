@@ -10,11 +10,11 @@ const services = () => {
     { id: 1, title: "Finance and Accounts", to: "/financeandaccounts" },
     { id: 2, title: "IT security and services", to: "/itandsecurity" },
     { id: 3, title: "digital marketing services", to: "/digitalmarketing" },
-    { id: 4, title: "human resource services", to: "/underconstruction" },
+    { id: 4, title: "human resource services", to: "/humanresource" },
   ];
   const itemsright = [
     { id: 1, title: "Logistics Documentation", to: "/logisticsdocumentation" },
-    { id: 2, title: "business compliances", to: "/underconstruction" },
+    { id: 2, title: "business compliances", to: "/businesscompliance" },
     { id: 3, title: "Software development", to: "/softwaredevelopment" },
     { id: 4, title: "administration services", to: "/underconstruction" },
   ];
