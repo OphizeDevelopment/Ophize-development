@@ -44,8 +44,8 @@ const services = () => {
   ];
   return (
     <>
-      <div className="w-full xs3:px-20 px-10 py-20">
-        <div className="flex flex-col gap-10">
+      <div className="w-full xs3:px-20 px-10 py-20 ">
+        <div className="flex flex-col gap-20 ">
         {/* title and subtitle */}
         <div className="text-center flex flex-col gap-4">
           <h1 className="md:text-4xl text-4xl font-bold text-center text-gray-800 xs:mt-10 tracking-wide">
@@ -62,7 +62,7 @@ const services = () => {
           {services.map((service, index) => (
             <div key={index} className="xs3:flex items-start w-[35rem] xs3:gap-8 gap-3 xs3:px-10 px-3 py-10">
               {/* service card */}
-              <div className="flex  gap-5 border-l-4 border-blue-700 pl-5 min-h-40 items-center">
+              <div className="flex  gap-10 border-l-4 border-blue-700 pl-5 min-h-40 items-center">
                 {/* service title and description container */}
                 <div className="flex flex-col ">
                   {/* service title */}

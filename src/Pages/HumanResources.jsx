@@ -3,13 +3,14 @@ import ServicesHr from "../Components/HumenResource/Services";
 import BgsolutionHr from "../Components/HumenResource/SolutionHr1";
 import SolutionsHr from "../Components/HumenResource/SolutionsHr";
 
-const humanresource = () =>{
- return(<>
- <HeroSection />
- <SolutionsHr />
- <ServicesHr />
- <BgsolutionHr />
-
- </>)
-}
+const humanresource = () => {
+  return (
+    <>
+      <HeroSection />
+      <SolutionsHr />
+      <BgsolutionHr />
+      <ServicesHr />
+    </>
+  );
+};
 export default humanresource;

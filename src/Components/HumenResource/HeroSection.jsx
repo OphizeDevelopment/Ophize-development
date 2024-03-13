@@ -10,7 +10,7 @@ const HeroSectionHR = () => {
           {/* text container */}
           <div className="text-white flex flex-col xs2:items-start xs2:text-start text-center items-center md:gap-8 gap-6 ">
             {/* heading of the section */}
-            <h1 className="md:text-6xl  text-xl font-bold tracking-wide uppercase xs:text-5xl">
+            <h1 className="md:text-6xl xs2:text-3xl text-6xl font-bold tracking-wide uppercase xs:text-lg">
               human resource management
             </h1>
             {/* description paragraph of the heading */}
@@ -24,7 +24,7 @@ const HeroSectionHR = () => {
             </button>
           </div>
           {/* image of the hero section */}
-          <div>
+          <div className="justify-center">
             <img
               src={hrHero1}
               alt="human resource hero"

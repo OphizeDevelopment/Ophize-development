@@ -4,13 +4,13 @@ const ServicesHr = () => {
   return (
     <>
       {/* main container */}
-      <div className="flex justify-center items-center px-10 md:py-10 pb-20 ">
+      <div className="flex justify-center items-center px-10 md:py-10 pb-20">
         {/* inner container for text and image */}
-        <div className="flex md:flex-row flex-col justify-center items-center gap-10 ml-20 mb-20">
+        <div className="flex md:flex-row flex-col justify-center items-center  ">
           {/* text content container */}
-          <div className="lg:w-[50rem] flex flex-col gap-4 xs:">
+          <div className="lg:w-[80rem] h-auto flex flex-col gap-4 p-5">
             {/* title for the content */}
-            <h1 className="xl:text-4xl xs3:text-3xl xs2:text-xl font-bold tracking-wide xs3:text-start text-center">
+            <h1 className="xl:text-4xl xs3:text-3xl xs2:text-xl font-bold tracking-wide  text-center gap-5 xs:mt-5">
               Compreshnive Human Resources Services
             </h1>
             {/* Description paragraph */}
