@@ -21,6 +21,7 @@ import Footer from "./Components/footer";
 import { useEffect } from "react";
 import SolutionsHr from "./Components/HumenResource/SolutionsHr";
 import Humanresource from "./Pages/HumanResources";
+import Services from "./Pages/services";
 
 const CommonComponents = () => {
   const location = useLocation();
@@ -32,6 +33,7 @@ const CommonComponents = () => {
     "/itandsecurity",
     "/businesscompliance",
     "/humanresource",
+    "/services"
   ];
 
   if (!definedPaths.includes(location.pathname)) {
@@ -75,6 +77,7 @@ const App = () => {
           <Route path="/underconstruction" element={<Underconstruction />} />
           <Route path="/businesscompliance" element={<BusinessCompilance />} />
           <Route path="/humanresource" element={<Humanresource/>} />
+          <Route path="/services" element={<Services/>} />
 
           <Route path="*" element={<Pagenotfound />} />
         </Routes>

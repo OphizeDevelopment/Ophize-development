@@ -9,6 +9,7 @@ import Logiherosection from "./Logistics/herosection";
 import Herosection1 from "./BusinessCompliance/herosection";
 import ITherosetion from "./ITSecurity/herosetion";
 import HeroSectionHR from "./HumenResource/HeroSection";
+import HerosectionService from "./services/herosection";
 
 // Importing the background image for the hero section
 import bgimg from "../assets/service-bg.png";
@@ -35,8 +36,10 @@ const HeroSection = () => {
         return <Herosection1 />;
       case "/itandsecurity":
         return <ITherosetion />;
+      case "/services":
+        return <HerosectionService />;
       case "/humanresource":
-        return <HeroSectionHR/>;
+        return <HeroSectionHR />;
       default:
         return <Herosection />;
     }

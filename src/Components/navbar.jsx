@@ -66,7 +66,8 @@ const Navbar = () => {
                 "/logisticsdocumentation",
                 "/itandsecurity",
                 "/businesscompliance",
-                "/humanresource"
+                "/humanresource",
+                "/services"
               ]) && <img src={line} alt="line" />}
             </div>
           </div>
