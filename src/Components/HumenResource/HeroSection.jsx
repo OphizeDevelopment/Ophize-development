@@ -4,13 +4,13 @@ const HeroSectionHR = () => {
   return (
     <>
       {/* container div for the hero section */}
-      <div className="flex justify-center md:pt-28 md:px-20 px-10">
+      <div className="flex justify-center px-10 pt-8 md:px-20 ">
         {/* inner container for image and text */}
-        <div className="w-[1250px] flex flex-col justify-center items-end gap-16 md:gap-0">
+        <div className="w-[1250px] flex flex-col justify-center items-end gap-16 md:gap-0 ">
           {/* text container */}
           <div className="text-white flex flex-col xs2:items-start xs2:text-start text-center items-center md:gap-8 gap-6 ">
             {/* heading of the section */}
-            <h1 className="md:text-6xl xs2:text-3xl text-6xl font-bold tracking-wide uppercase xs:text-lg">
+            <h1 className="md:text-6xl xs2:text-2xl font-bold tracking-wide uppercase xs:text-base">
               human resource management
             </h1>
             {/* description paragraph of the heading */}
@@ -28,7 +28,7 @@ const HeroSectionHR = () => {
             <img
               src={hrHero1}
               alt="human resource hero"
-              className="w-96 md:w-fit"
+              className=""
             />
           </div>
         </div>

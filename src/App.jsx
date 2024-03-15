@@ -22,6 +22,7 @@ import { useEffect } from "react";
 import SolutionsHr from "./Components/HumenResource/SolutionsHr";
 import Humanresource from "./Pages/HumanResources";
 import Services from "./Pages/services";
+import AboutUs from "./Pages/AboutUs";
 
 const CommonComponents = () => {
   const location = useLocation();
@@ -33,7 +34,8 @@ const CommonComponents = () => {
     "/itandsecurity",
     "/businesscompliance",
     "/humanresource",
-    "/services"
+    "/services",
+    "/aboutus",
   ];
 
   if (!definedPaths.includes(location.pathname)) {
@@ -76,8 +78,9 @@ const App = () => {
           <Route path="/itandsecurity" element={<Itsecurity />} />
           <Route path="/underconstruction" element={<Underconstruction />} />
           <Route path="/businesscompliance" element={<BusinessCompilance />} />
-          <Route path="/humanresource" element={<Humanresource/>} />
-          <Route path="/services" element={<Services/>} />
+          <Route path="/humanresource" element={<Humanresource />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/aboutus" element={<AboutUs />} />
 
           <Route path="*" element={<Pagenotfound />} />
         </Routes>

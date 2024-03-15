@@ -13,6 +13,7 @@ import HerosectionService from "./services/herosection";
 
 // Importing the background image for the hero section
 import bgimg from "../assets/service-bg.png";
+import HeroAbout from "./AboutUs/Hero";
 
 // HeroSection component definition
 const HeroSection = () => {
@@ -38,6 +39,8 @@ const HeroSection = () => {
         return <ITherosetion />;
       case "/services":
         return <HerosectionService />;
+      case "/aboutus"  :
+        return <HeroAbout />
       case "/humanresource":
         return <HeroSectionHR />;
       default:

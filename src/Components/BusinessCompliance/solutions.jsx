@@ -3,7 +3,7 @@ import busSol from "../../assets/busSol.png";
 const solutions = () => {
   return (
     <>
-      <div className="flex md:flex-row flex-col justify-center md:py-10 py-5 mb-10 md:mb-0 px-10 items-center gap-10 p-10">
+      <div className="flex md:flex-row flex-col justify-center md:py-16 md:px-16 py-5  mb-10 md:mb-0 px-14 items-center gap-10 p-10">
         {/* img container */}
         <div>
           <img src={busSol} alt="Business Solutions" />

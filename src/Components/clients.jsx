@@ -35,11 +35,41 @@ const Clients = () => {
           style={{ maxWidth: "1250px" }} // Maximum width of the marquee
         >
           {/* Client logos displayed as scrolling images */}
-          <img src={l1} alt="Client Logo" className="w-32 mx-10" />
-          <img src={l2} alt="Client Logo" className="w-32 mx-10" />
-          <img src={l3} alt="Client Logo" className="w-32 mx-10" />
-          <img src={l4} alt="Client Logo" className="w-32 mx-10" />
-          <img src={l5} alt="Client Logo" className="w-32 mx-10" />
+          <a
+            href="https://vamlogistics.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={l1} alt="Client Logo" className="w-32 mx-10" />
+          </a>
+          <a
+            href="https://amstergi.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={l2} alt="Client Logo" className="w-32 mx-10" />
+          </a>
+          <a
+            href="https://hellosamkids.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={l3} alt="Client Logo" className="w-32 mx-10" />
+          </a>
+          <a
+            href=" https://topmostdental.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={l4} alt="Client Logo" className="w-32 mx-10" />
+          </a>
+          <a
+            href="https://www.roundsquaregroup.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={l5} alt="Client Logo" className="w-32 mx-10" />
+          </a>
           <img src={l6} alt="Client Logo" className="w-32 mx-10" />
         </Marquee>
       </div>
