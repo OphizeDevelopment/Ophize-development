@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <div className="relative">
       {/* Div for the background image with full width and variable height */}
-      <div className="w-full lg:h-[50rem] sm:h-[40rem] h-[30rem]">
+      <div className="w-full lg:h-[50rem] sm:h-[40rem] h-[30rem] ">
         <img
           src={logibg} // Source of the background image
           alt="Logistics Background" // Alt text for accessibility

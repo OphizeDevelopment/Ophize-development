@@ -9,7 +9,7 @@ const Performance = () => {
         {/* Image container */}
         <img src={graph} alt="Graph" className="md:w-[40%]" />
         {/* Text content container */}
-        <div className="">
+        <div className="p-6">
           {/* Button with title */}
           <button className="bg-[#F1F5F9] text-[#9CA3AF] px-8 py-1 rounded-xl">
             Elevating Your Digital Impact

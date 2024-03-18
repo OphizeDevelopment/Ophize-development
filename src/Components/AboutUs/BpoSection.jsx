@@ -3,12 +3,10 @@ import deiveryimage from "../../assets/deliveryontime.png";
 import serviceexcellenceimage from "../../assets/service.png";
 import whyusimage from "../../assets/whyussection.png";
 
-
-
 const BpoSection = () => {
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 justify-center p-3 mt-4 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 justify-center p-3 mt-4  ">
         <div className="p-8 pt-0 pb-0 m-7">
           {/* Title and introductory text */}
           <div className="p-5 pt-2">
@@ -39,7 +37,7 @@ const BpoSection = () => {
             </p>
           </div>
         </div>
-        <div className="p-8 pt-0 pb-0 pl-1 text-start font-medium 2xl:text-xl 4xl:text-4xl md:h-fit">
+        <div className="p-8 pl-1 text-start font-medium 2xl:text-xl 4xl:text-4xl md:h-fit">
           <div className="p-9 pt-2 m-7 ">
             {/* image section */}
             <img src={whyusimage} className="w-full" />

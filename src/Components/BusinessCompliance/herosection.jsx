@@ -7,11 +7,11 @@ const herosection = () => {
       {/* container div for the hero section */}
       <div className="w-full flex justify-center  md:px-20   p-9">
         {/* inner container with flex layout,padding and width adjustment */}
-        <div className=" flex flex-col text-white  md:flex-row  justify-center items-center gap-5 p-10">
+        <div className=" flex flex-col text-white  md:flex-row  justify-center items-center gap-5 ">
           {/* textual content container */}
           <div className="flex flex-col  justify-center md:items-start items-center  gap-5 lg:w-1/2">
             {/* main heading for the hero section */}
-            <h1 className="md:text-6xl xs2:text-2xl  font-bold tracking-wide uppercase ">
+            <h1 className="text-xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl font-bold tracking-wide uppercase ">
               business compliances
             </h1>
             {/* Subheading */}

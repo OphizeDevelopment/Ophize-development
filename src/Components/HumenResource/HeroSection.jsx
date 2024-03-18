@@ -10,7 +10,7 @@ const HeroSectionHR = () => {
           {/* text container */}
           <div className="text-white flex flex-col xs2:items-start xs2:text-start text-center items-center md:gap-8 gap-6 ">
             {/* heading of the section */}
-            <h1 className="md:text-6xl xs2:text-2xl font-bold tracking-wide uppercase xs:text-base">
+            <h1 className="text-xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-wide uppercase xs:text-lg">
               human resource management
             </h1>
             {/* description paragraph of the heading */}

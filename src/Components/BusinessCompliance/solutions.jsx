@@ -11,7 +11,7 @@ const solutions = () => {
         {/* text content container */}
         <div className="flex flex-col md:items-start items-center gap-5 md:w-[40rem] justify-center md:text-start text-center ">
           {/* title of the section */}
-          <h1 className="uppercase font-bold tracking-wide xl:text-4xl lg:text-3xl sm:text-2xl w-full xs:text-4xl mt-5">
+          <h1 className="uppercase font-bold tracking-wide xl:text-4xl lg:text-3xl sm:text-2xl  w-full xs:text-xl mt-5">
             Optimal IT security solutions
           </h1>
           {/* Description paragraph */}
@@ -22,8 +22,10 @@ const solutions = () => {
             your business operation are secure and resilient against cyber
             threats.
           </p>
-          <h1 className="text-black text-2xl font-semibold">Our Mission</h1>
-          <p className="text-black lg:text-xl text-base ">
+          <h1 className="text-black text-2xl xs:text-xl font-semibold">
+            Our Mission
+          </h1>
+          <p className="text-black lg:text-xl text-base font-medium">
             Empower business with advanced security startegies and
             infrastructure,fostering a secure and confident digital enviornnment
           </p>

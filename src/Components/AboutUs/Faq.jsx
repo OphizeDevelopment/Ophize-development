@@ -128,9 +128,9 @@ const Faq = () => {
             </div>
           </div>
         </div>
-        <div className="p-8 pt-0 pb-0 pl-1 text-start font-medium 2xl:text-xl 4xl:text-4xl mx-auto mt-10">
-          <div className="p-11 pt-0">
-            <div className="bg-[#305197] w-80 p-8">
+        <div className="p-8 pt-0 pb-0 pl-1 text-start font-medium 2xl:text-xl 4xl:text-4xl mx-auto mt-10 ">
+          <div className="p-11 pt-0 ">
+            <div className="bg-[#305197]  xs:w-auto xs:h-auto md:w-80 md:p-10 ">
               <p className="flex items-center text-sm bg-[#111C55] text-white w-20 mt-3 mb-5">
                 <img src={letstalkpattern} className="mr-2" />
                 Let's Talk

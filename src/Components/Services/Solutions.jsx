@@ -14,6 +14,7 @@ const SolutionsService = () => {
       id: 1,
       imgSrc: Sr1,
       title: "Finance and Accounts",
+      url:"/financeandaccounts",
       description:
         "Precision in finance for business excellence. Tailored accounting solutions that align with your goals.",
     },
@@ -21,6 +22,7 @@ const SolutionsService = () => {
       id: 2,
       imgSrc: Sr2,
       title: "Logistics Documentation",
+      url:"/logisticsdocumentation",
       description:
         "Simplify your supply chain with comprehensive logistics documentation services for seamless operations.",
     },
@@ -28,6 +30,7 @@ const SolutionsService = () => {
       id: 3,
       imgSrc: Sr3,
       title: "IT Security and Services",
+      url:"/itandsecurity",
       description:
         "Fortify your digital assets with robust IT security solutions.Stay protected in a connected world.",
     },
@@ -35,6 +38,7 @@ const SolutionsService = () => {
       id: 4,
       imgSrc: Sr4,
       title: "Business Compliances",
+      url:"/businesscompliance",
       description:
         "Ensure your business integrity with our comprehensive compliance services. Stay ahead of regulations.",
     },
@@ -42,6 +46,7 @@ const SolutionsService = () => {
       id: 5,
       imgSrc: Sr5,
       title: "Digital Media Marketing",
+      url:"/digitalmarketing",
       description:
         "Boost your online presence with strategic digital marketing campaigns designed to increase engagement and conversions.",
     },
@@ -49,6 +54,7 @@ const SolutionsService = () => {
       id: 6,
       imgSrc: Sr6,
       title: "Software Development",
+      url:"/softwaredevelopment",
       description:
         "Custom software solutions that drive innovation. Transform your operations with our development expertise.",
     },
@@ -56,6 +62,7 @@ const SolutionsService = () => {
       id: 7,
       imgSrc: Sr7,
       title: "Human Resources",
+      url:"/humanresource",
       description:
         "Empower your workforce with our HR services. From talent acquisition to performance management, we cover it all",
     },
@@ -63,6 +70,7 @@ const SolutionsService = () => {
       id: 8,
       imgSrc: Sr8,
       title: "Administration Services",
+      url:"/administration",
       description:
         "Efficient back-office support to streamline your administrative tasks. Focus on growth while we handle the details.",
     },
@@ -93,9 +101,9 @@ const SolutionsService = () => {
               <p className="text-lg sm:text-base capitalize text-zinc-600">
                 {solution.description}
               </p>
-              <button className="text-lg sm:text-sm justify-end text-blue-700 capitalize ">
+              <a href={solution.url} className="text-lg sm:text-sm justify-end text-blue-700 capitalize ">
                 explore more
-              </button>
+              </a>
             </div>
           ))}
         </div>
