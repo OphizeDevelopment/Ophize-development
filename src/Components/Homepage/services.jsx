@@ -16,7 +16,7 @@ const services = () => {
     { id: 1, title: "Logistics Documentation", to: "/logisticsdocumentation" },
     { id: 2, title: "business compliances", to: "/businesscompliance" },
     { id: 3, title: "Software development", to: "/softwaredevelopment" },
-    { id: 4, title: "administration services", to: "/underconstruction" },
+    { id: 4, title: "administration services", to: "/administration" },
   ];
 
   return (

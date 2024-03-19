@@ -1,22 +1,23 @@
 import businessHero from "../../assets/businessHero.png";
 
+
 const herosection = () => {
   return (
     <>
       {/* container div for the hero section */}
-      <div className="w-full flex flex-wrap justify-center items-center md:px-20 px-10">
+      <div className="w-full flex justify-center  md:px-20   p-9">
         {/* inner container with flex layout,padding and width adjustment */}
-        <div className="text-white flex  md:flex-row flex-col  justify-center items-center ">
+        <div className=" flex flex-col text-white  md:flex-row  justify-center items-center gap-5 ">
           {/* textual content container */}
-          <div className="flex flex-col justify-end md:items-start items-center  gap-5">
+          <div className="flex flex-col  justify-center md:items-start items-center  gap-5 lg:w-1/2">
             {/* main heading for the hero section */}
-            <h1 className="md:text-6xl xs2:text-3xl text-xl font-bold tracking-wide uppercase">
+            <h1 className="text-xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl font-bold tracking-wide uppercase ">
               business compliances
             </h1>
             {/* Subheading */}
-            <p className="md:text-3xl xs2:text-base text-sm   ">
-              Streamline regulatory compilance with <br /> our tailored
-              solutions that protect your <br /> business intergrity and
+            <p className="md:text-3xl xs2:text-base text-sm">
+              Streamline regulatory compilance with our tailored
+              solutions that protect your business intergrity and
               continuity
             </p>
             {/* request button */}
@@ -29,7 +30,11 @@ const herosection = () => {
           </div>
           {/* image container */}
           <div>
-            <img src={businessHero} alt="Software Development" />
+            <img
+              src={businessHero}
+              alt="Software Development"
+              className="md:w-auto w-60"
+            />
           </div>
         </div>
       </div>

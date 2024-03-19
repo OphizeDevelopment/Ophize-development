@@ -54,11 +54,15 @@ const Navbar = () => {
               {isActive(["/"]) && <img src={line} alt="line" />}
             </div>
             <div className="text-center flex flex-col">
-              <li>About</li>
-              {isActive(["/about"]) && <img src={line} alt="line" />}
+              <Link to="/aboutus">
+                <li>About</li>
+              </Link>
+              {isActive(["/aboutus"]) && <img src={line} alt="line" />}
             </div>
             <div className="text-center flex flex-col">
-              <li>Services</li>
+              <Link to="/services">
+                <li>Services</li>
+              </Link>
               {isActive([
                 "/digitalmarketing",
                 "/softwaredevelopment",
@@ -66,7 +70,9 @@ const Navbar = () => {
                 "/logisticsdocumentation",
                 "/itandsecurity",
                 "/businesscompliance",
-                "/humanresource"
+                "/humanresource",
+                "/administration",
+                "/services",
               ]) && <img src={line} alt="line" />}
             </div>
           </div>
@@ -89,7 +95,9 @@ const Navbar = () => {
         <Link to="/">
           <li>Home</li>
         </Link>
-        <li>About</li>
+        <Link to="/aboutus">
+          <li>About</li>
+        </Link>
         <li>Services</li>
         <button className="uppercase bg-[#305197] px-3 py-2 rounded-lg mt-2 text-white font-semibold text-sm">
           Contact us

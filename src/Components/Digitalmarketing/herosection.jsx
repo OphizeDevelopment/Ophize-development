@@ -11,7 +11,7 @@ const herosection = () => {
             the best
           </h6>
           {/* Main title for the hero section */}
-          <h1 className="xl:text-6xl xs2:text-4xl text-2xl uppercase font-semibold tracking-wider font-sans">
+          <h1 className="xl:text-6xl xs2:text-4xl text-2xl uppercase font-semibold tracking-wider font-sans text-center">
             digital marketing
           </h1>
           {/* Description paragraph */}

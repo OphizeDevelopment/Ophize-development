@@ -9,9 +9,12 @@ import Logiherosection from "./Logistics/herosection";
 import Herosection1 from "./BusinessCompliance/herosection";
 import ITherosetion from "./ITSecurity/herosetion";
 import HeroSectionHR from "./HumenResource/HeroSection";
+import HerosectionService from "./services/herosection";
 
 // Importing the background image for the hero section
 import bgimg from "../assets/service-bg.png";
+import HeroAbout from "./AboutUs/Hero";
+import Hero from "./Administration/Hero";
 
 // HeroSection component definition
 const HeroSection = () => {
@@ -35,8 +38,14 @@ const HeroSection = () => {
         return <Herosection1 />;
       case "/itandsecurity":
         return <ITherosetion />;
+      case "/services":
+        return <HerosectionService />;
+      case "/aboutus"  :
+        return <HeroAbout />
+      case "/administration":
+        return <Hero />
       case "/humanresource":
-        return <HeroSectionHR/>;
+        return <HeroSectionHR />;
       default:
         return <Herosection />;
     }

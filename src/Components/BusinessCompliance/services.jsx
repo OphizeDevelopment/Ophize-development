@@ -44,11 +44,13 @@ const services = () => {
   ];
   return (
     <>
-      <div className="w-full xs3:px-20 px-10 py-20">
-        <div className="flex flex-col gap-10">
+    {/* main container */}
+      <div className="w-full xs:px-8 xs:py-8  ">
+
+        <div className="flex flex-col  ">
         {/* title and subtitle */}
-        <div className="text-center flex flex-col gap-4">
-          <h1 className="md:text-4xl text-4xl font-bold text-center text-gray-800 xs:mt-10 tracking-wide">
+        <div className="text-center flex flex-wrap flex-col gap-4 justify-center">
+          <h1 className="md:text-4xl text-xl lg:text-5xl font-bold text-center text-gray-800  tracking-wide">
             Services we offer
           </h1>
 
@@ -57,16 +59,16 @@ const services = () => {
           </h1>
         </div>
         {/* container for displayingn each services items */}
-        <div className="flex flex-wrap gap-10 justify-center md:mt-10">
+        <div className="flex flex-wrap xs:gap-0 md:gap-10 justify-center md:mt-10 xs:mx-5">
           {/* mapping each service items */}
           {services.map((service, index) => (
-            <div key={index} className="xs3:flex items-start w-[35rem] xs3:gap-8 gap-3 xs3:px-10 px-3 py-10">
+            <div key={index} className="xs3:flex items-start w-[35rem] xs3:gap-8 gap-3 xs3:px-10 px-3 py-10 ">
               {/* service card */}
-              <div className="flex  gap-5 border-l-4 border-blue-700 pl-5 min-h-40 items-center">
+              <div className="flex  gap-10 border-l-4 border-blue-700 pl-5 min-h-40 items-center h-full">
                 {/* service title and description container */}
                 <div className="flex flex-col ">
                   {/* service title */}
-                  <h1 className="md:text-2xl text-xl font-bold mb-2">
+                  <h1 className="md:text-2xl text-xl sm:text-base font-bold mb-2">
                     {service.title}
                   </h1>
                   {/* services description */}
