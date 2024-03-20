@@ -73,15 +73,18 @@ const Navbar = () => {
                 "/humanresource",
                 "/administration",
                 "/services",
+                "/businessstrategic",
               ]) && <img src={line} alt="line" />}
             </div>
           </div>
 
           {/* Contact Us Button */}
           <div className={`${isOpen ? "flex" : "hidden"} md:flex hidden`}>
-            <button className="uppercase bg-[#305197] px-6 py-3 rounded-lg text-white font-semibold text-sm">
-              Contact us
-            </button>
+            <Link to="/contactus">
+              <button className="uppercase bg-[#305197] px-6 py-3 rounded-lg text-white font-semibold text-sm">
+                Contact us
+              </button>
+            </Link>
           </div>
         </div>
       </div>

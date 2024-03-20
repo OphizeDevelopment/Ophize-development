@@ -69,7 +69,7 @@ const services = () => {
             <div className="flex flex-col gap-8 mt-8 justify-start items-start">
               <div className="flex gap-3 items-center">
                 <img src={icon} alt="Service Icon" />
-                <Link to="/underconstruction">
+                <Link to="/businessstrategic">
                   <p className="uppercase text-[#305197] font-bold xl:text-xl md:text-base text-sm">
                     business stratergic consultancy
                   </p>

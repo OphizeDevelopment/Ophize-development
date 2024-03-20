@@ -75,7 +75,7 @@ const SolutionsHr = () => {
       {/* container div */}
       <div className="w-full xs3:px-20 px-10 py-10 ">
         {/* inner container */}
-        <div className="flex flex-col gap-10 ">
+        <div className="flex flex-col gap-10 items-center">
           {/* title of the section */}
           <div className=" text-center flex flex-col gap-4">
             <h1 className="text-[#353535] md:text-4xl xs3:text-2xl text-xl tracking-wide font-bold">
@@ -84,7 +84,7 @@ const SolutionsHr = () => {
             </h1>
           </div>
           {/* container for displaying the solutions */}
-          <div className="flex gap-10 flex-wrap md:flex-row justify-center items-center">
+          <div className="flex gap-10 flex-wrap md:flex-row justify-center items-center 2xl:w-[1480px] w-full">
             {solutions.map((solution) => (
               <div
                 key={solution.id}
@@ -92,10 +92,10 @@ const SolutionsHr = () => {
               >
                 <img src={solution.imgSrc} alt="" />
                 <div>
-                  <h1 className="text-violet-700 font-extrabold md:text-3xl border-b-2 border-black mb-5">
+                  <h1 className="text-violet-700 md:text-2xl text-xl font-bold border-b-2 border-black mb-5">
                     {solution.title}
                   </h1>
-                  <p className="text-black font-medium text-lg">
+                  <p className="text-black font-medium text-xl">
                     {solution.description}
                   </p>
                 </div>

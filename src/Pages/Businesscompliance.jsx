@@ -8,6 +8,7 @@ const BusinessCompilance = () =>{
     <HeroSection />
     <Services />
     <Solutions />
+    
     </>);
 };
 

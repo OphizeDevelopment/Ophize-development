@@ -6,7 +6,7 @@ const solutions = () => {
     <>
       <div className="flex justify-center items-center px-10 md:py-10 pb-20">
         {/* Inner container with flexible layout for the image and text content */}
-        <div className="flex md:flex-row flex-col justify-center items-center gap-10">
+        <div className="flex md:flex-row flex-col justify-center items-center gap-10 mx-11">
           {/* Image container */}
           <div>
             <img src={sideimg} alt="Customized Financial Solutions" />

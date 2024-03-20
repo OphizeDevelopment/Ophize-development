@@ -4,17 +4,17 @@ const Hero = () => {
   return (
     <>
       {/* main container */}
-      <div className="justify-center flex md:flex-row flex-col md:px-24 px-10 p-10 xs:gap-5 md:h-screen md:p-16">
+      <div className="justify-center flex md:flex-row flex-col md:px-24 my-16 p-10 xs:gap-5  md:p-16 ">
         {/* image container  */}
-        <div className="flex md:justify-normal justify-center md:mt-32 flex-start ">
+        <div className="flex md:justify-normal justify-center md:mt-32 flex-start w-auto lg:w-[550px]">
           <img
             src={adminHero}
             alt="administration"
-            className="mt-5 md:w-auto h-fit"
+            className=" md:w-auto  w-60 h-a"
           />
         </div>
         {/* text content container with vertical spacing and alignment */}
-        <div className="text-white flex flex-col gap-6 md:items-start items-center w-auto flex-end md:m-6">
+        <div className="text-white flex flex-col gap-6 md:items-start items-center w-auto flex-end md:m-6  ">
           {/* heading of the hero section */}
           <h1 className="uppercase xl:text-5xl xs2:text-4xl text-2xl text-center font-semibold tracking-wider md:mt-10">
             administration services
