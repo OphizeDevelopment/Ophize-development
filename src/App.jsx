@@ -24,6 +24,8 @@ import Humanresource from "./Pages/HumanResources";
 import Services from "./Pages/services";
 import AboutUs from "./Pages/AboutUs";
 import Administration from "./Pages/Administration";
+import ContactUs from "./Pages/Contactus";
+import BusinessStrategy from "./Pages/BusinessStrategy";
 
 const CommonComponents = () => {
   const location = useLocation();
@@ -37,7 +39,9 @@ const CommonComponents = () => {
     "/humanresource",
     "/services",
     "/aboutus",
-    "/administration"
+    "/administration",
+    "/businessstrategic",
+    
   ];
 
   if (!definedPaths.includes(location.pathname)) {
@@ -84,6 +88,8 @@ const App = () => {
           <Route path="/services" element={<Services />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/administration" element={<Administration />} />
+          <Route path="/businessstrategic" element={<BusinessStrategy/>} />
+          <Route path="/contactus" element={<ContactUs />} />
 
           <Route path="*" element={<Pagenotfound />} />
         </Routes>

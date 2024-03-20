@@ -4,7 +4,7 @@ import itbg from "../../assets/it-img.png";
 const HeroSection = () => {
   return (
     <>
-      <div className="flex justify-center items-center px-10 md:px-20 py-10 md:py-32">
+      <div className="flex justify-center items-center px-10 md:px-20 py-10 md:py-30">
         {/* Inner container with flex layout for content and image, responsive for different screen sizes */}
         <div className="flex flex-col md:flex-row-reverse justify-center items-center md:gap-28 gap-16">
           {/* Textual content container */}

@@ -6,7 +6,7 @@ const Excellence = () => {
       {/* main container for the page */}
       <div className="flex flex-col justify-center items-center gap-10 p-14 m-12">
         {/* container for the text and image */}
-        <div className="flex xs:flex-col md:flex-row justify-center items-center gap-5">
+        <div className="flex xs:flex-col md:flex-row justify-center items-center gap-5  w-full">
           <img src={excellenceImg} alt="excellence image" />
           <div>
             <h1 className="uppercase font-bold tracking-wide xl:text-4xl lg:text-3xl sm:text-2xl  w-full xs:text-xl text-center">
@@ -21,7 +21,7 @@ const Excellence = () => {
         </div>
         {/* container for the paragraph */}
         <div>
-          <p className="text-black lg:text-xl text-base xs:text-xs font-medium text-center">
+          <p className="text-black lg:text-xl text-base xs:text-xs font-medium text-center xs:line-clamp-4 md:line-clamp-none">
             Explore the breadth of our Administration Services designed to
             enhance operational efficiency across your enterprise. From the
             essentials of Administrative and Legal Support to the nuanced

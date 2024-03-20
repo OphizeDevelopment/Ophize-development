@@ -1,3 +1,4 @@
+import ContactForm from "../Components/ContactForm";
 import HeroSection from "../Components/herosectionbg";
 import ServicesHr from "../Components/HumenResource/Services";
 import BgsolutionHr from "../Components/HumenResource/SolutionHr1";

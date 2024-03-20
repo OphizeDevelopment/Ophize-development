@@ -44,45 +44,46 @@ const services = () => {
   ];
   return (
     <>
-    {/* main container */}
-      <div className="w-full xs:px-8 xs:py-8  ">
+      {/* main container */}
+      <div className=" xs:px-8 xs:py-8 flex justify-center ">
+        <div className="flex flex-col">
+          {/* title and subtitle */}
+          <div className="text-center flex flex-wrap flex-col gap-4 justify-center">
+            <h1 className="md:text-4xl text-xl lg:text-5xl font-bold text-center text-gray-800  tracking-wide">
+              Services we offer
+            </h1>
 
-        <div className="flex flex-col  ">
-        {/* title and subtitle */}
-        <div className="text-center flex flex-wrap flex-col gap-4 justify-center">
-          <h1 className="md:text-4xl text-xl lg:text-5xl font-bold text-center text-gray-800  tracking-wide">
-            Services we offer
-          </h1>
-
-          <h1 className="md:text-lg text-base  text-center text-gray-500 ">
-            Who is Nextcent suitable for?
-          </h1>
-        </div>
-        {/* container for displayingn each services items */}
-        <div className="flex flex-wrap xs:gap-0 md:gap-10 justify-center md:mt-10 xs:mx-5">
-          {/* mapping each service items */}
-          {services.map((service, index) => (
-            <div key={index} className="xs3:flex items-start w-[35rem] xs3:gap-8 gap-3 xs3:px-10 px-3 py-10 ">
-              {/* service card */}
-              <div className="flex  gap-10 border-l-4 border-blue-700 pl-5 min-h-40 items-center h-full">
-                {/* service title and description container */}
-                <div className="flex flex-col ">
-                  {/* service title */}
-                  <h1 className="md:text-2xl text-xl sm:text-base font-bold mb-2">
-                    {service.title}
-                  </h1>
-                  {/* services description */}
-                  <p className="md:text-base text-sm font-medium  lg:text-lg">
-                    {service.description}
-                  </p>
+            <h1 className="md:text-lg text-base  text-center text-gray-500 ">
+              Who is Nextcent suitable for?
+            </h1>
+          </div>
+          {/* container for displayingn each services items */}
+          <div className="flex flex-wrap xs:gap-0 md:gap-10 justify-center items-center md:mt-10 2xl:w-[1480px] w-auto xs:w-[230px] md:w-[780px] ">
+            {/* mapping each service items */}
+            {services.map((service, index) => (
+              <div
+                key={index}
+                className="xs3:flex items-start w-[45rem] xs3:gap-8 gap-10 xs3:px-10 px-3 py-10 "
+              >
+                {/* service card */}
+                <div className="flex flex-wrap gap-10 border-l-4 border-blue-700 pl-5 min-h-40 items-center ">
+                  {/* service title and description container */}
+                  <div className="flex flex-col ">
+                    {/* service title */}
+                    <h1 className="md:text-2xl text-xl sm:text-base font-bold mb-2">
+                      {service.title}
+                    </h1>
+                    {/* services description */}
+                    <p className="md:text-xl text-sm font-medium  lg:text-lg">
+                      {service.description}
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
         </div>
       </div>
-      
     </>
   );
 };

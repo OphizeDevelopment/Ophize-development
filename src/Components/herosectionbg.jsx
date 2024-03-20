@@ -15,6 +15,8 @@ import HerosectionService from "./services/herosection";
 import bgimg from "../assets/service-bg.png";
 import HeroAbout from "./AboutUs/Hero";
 import Hero from "./Administration/Hero";
+import HerosectionContact from "./ContactUs/Herosection";
+import HerosectionStrgy from "./BusinessStrategy/Herosection";
 
 // HeroSection component definition
 const HeroSection = () => {
@@ -44,6 +46,10 @@ const HeroSection = () => {
         return <HeroAbout />
       case "/administration":
         return <Hero />
+      case "/contactus":
+        return <HerosectionContact />  
+      case "/businessstrategic":
+        return <HerosectionStrgy />
       case "/humanresource":
         return <HeroSectionHR />;
       default:
