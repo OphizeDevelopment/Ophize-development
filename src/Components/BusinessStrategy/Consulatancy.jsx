@@ -5,9 +5,9 @@ const Consultancy = () => {
   return (
     <>
       {/* main parent container for the content */}
-      <div className="w-full justify-center flex flex-col items-center p-10 gap-5">
+      <div className="w-full justify-center flex flex-col items-center pt-24 gap-14 pb-8 ">
         {/* first child container */}
-        <div className="flex md:flex-row gap-5 xs:flex-col">
+        <div className="flex md:flex-row gap-14 xs:flex-col mx-12">
           {/* container for the text  */}
           <div className="flex flex-col gap-5 text-black md:w-[550px] w-auto">
             <h1 className="text-[#353535] md:text-3xl xs3:text-2xl text-xl tracking-wide font-bold">
@@ -15,7 +15,7 @@ const Consultancy = () => {
             </h1>
             <p className="text-base">
               Explore the breadth of our strategic business expertise with a
-              portfolio of services tailored to enhance your organization’s
+              portfolio of services tailored to enhance your organization's
               strategic planning and execution. Our consultancy spans all core
               business functions, ensuring integrated and visionary leadership
               for sustainable growth.
@@ -32,7 +32,7 @@ const Consultancy = () => {
           </div>
         </div>
         {/* second child container */}
-        <div className="flex md:flex-row gap-5 xs:flex-col md:flex-row-reverse">
+        <div className="flex md:flex-row-reverse gap-14 xs:flex-col mx-12">
           {/* container for the text of second child */}
           <div className="flex flex-col justify-center items-center  gap-5 md:w-[550px]">
             <h1 className="text-[#353535] md:text-3xl xs3:text-2xl text-xl tracking-wide font-bold">

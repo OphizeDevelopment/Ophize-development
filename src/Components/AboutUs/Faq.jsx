@@ -18,8 +18,9 @@ const Faq = () => {
 
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 justify-center p-3 mt-4 bg-[#EBEFFF] m-7">
-        <div className="p-8 pt-0 pb-0">
+    <div className="flex justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 justify-center p-3 mt-4 bg-[#EBEFFF] m-7 2xl:w-[1440px] w-auto">
+        <div className="p-8 pt-0 pb-0 mt-9">
           {/* Title and introductory text */}
           <div className="p-5 pt-2">
             <p className="text-lg flex items-center 2xl:text-2xl 4xl:text-2xl">
@@ -157,6 +158,7 @@ const Faq = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

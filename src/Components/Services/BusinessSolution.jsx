@@ -4,12 +4,13 @@ import businessSolBg from "../../assets/businessSolBg.png";
 const BusinessSolution = () => {
   return (
     <>
+    <div className="flex justify-center">
       {/* main container for the section */}
-      <div className="w-full  flex flex-wrap  justify-center">
+      <div className="  flex flex-wrap  justify-center 2xl:w-[1440px] w-auto">
         {/* inner container for the content */}
         <div className="grid md:grid-cols-2 xs:grid-cols-1 items-center">
           {/* left side text container */}
-          <div className="h-full gap-6 flex flex-col justify-center text-left p-8 bg-[#3B50BA]">
+          <div className="h-full gap-6 flex flex-col justify-center text-left p-8 bg-[#3B50BA] mt-9 mb-7">
             <h1 className="capitalize text-white text-3xl font-bold">
               Tailored Solutions for Every
             </h1>
@@ -28,7 +29,7 @@ const BusinessSolution = () => {
             </p>
           </div>
           {/* right side text container */}
-          <div className="relative w-full h-full  ">
+          <div className="relative w-full h-full mt-9 mb-7 ">
             {/* image for the background */}
             <img
               src={businessSol}
@@ -48,6 +49,7 @@ const BusinessSolution = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

@@ -2,7 +2,8 @@ import whyusimage from "../../assets/whyussection.png";
 
 const Bposervice =()=>{
     return(<>
-    <div className="grid grid-cols-1 md:grid-cols-2 justify-center p-3 mt-4 2xl:mx-36 ">
+    <div className="flex justify-center">
+    <div className="grid grid-cols-1 md:grid-cols-2 justify-center p-3 mt-4 2xl:mx-36 2xl:w-[1440px] w-auto">
         <div className="p-8 pt-0 pb-0 m-7  ">
           {/* Title and introductory text */}
           <div className="p-5 pt-2">
@@ -29,6 +30,7 @@ const Bposervice =()=>{
             <img src={whyusimage} className="w-full" alt="whyusimage"/>
           </div>
         </div>
+      </div>
       </div>
     </>)
 }

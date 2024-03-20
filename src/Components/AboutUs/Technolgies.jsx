@@ -3,8 +3,9 @@
 const TechnologiesServices = () => {
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 justify-center p-3 mt-4 bg-[#EBEFFF] m-8">
-        <div className="p-8 pt-0 pb-0">
+    <div>
+      <div className="grid grid-cols-1 md:grid-cols-2 justify-center p-3 mt-4 bg-[#EBEFFF] m-8 2xl:w-[1440px] w-auto mx-auto">
+        <div className="p-8 pt-0 pb-0 mt-7">
           {/* Title and introductory text */}
           <div className="p-5 pt-2">
             <h1 className="text-2xl  font-bold 2xl:text-4xl 4xl:text-5xl md:text-start">
@@ -13,7 +14,7 @@ const TechnologiesServices = () => {
           </div>
         </div>
         <div className="p-8 pt-0 pb-0 pl-1 text-start text-slate-500 font-medium 2xl:text-2xl 4xl:text-3xl sm:text-xl md:text-base xs:text-lg">
-          <div className="p-11 pt-0">
+          <div className="p-11 pt-0 mt-7">
             <p className="pt-3 ">
               At Ophize, we simplify the complex. Our mission is to empower your
               go-to-market teams with cutting-edge tools that foster
@@ -33,7 +34,7 @@ const TechnologiesServices = () => {
       </div>
 
       {/* Statistics Section */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 p-8  bg-[#EBEFFF] sm:items-center m-7">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 p-8  bg-[#EBEFFF] sm:items-center m-7 2xl:w-[1440px] w-auto mx-auto">
         <div className="p-8 pt-0 pb-0">
           <h1 className="text-2xl font-medium 2xl:text-2xl 4xl:text-5xl">
             200+ Experts
@@ -62,6 +63,7 @@ const TechnologiesServices = () => {
             services, which helps to enhance their business strategies.
           </p>
         </div>
+      </div>
       </div>
     </>
   );

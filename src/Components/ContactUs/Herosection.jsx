@@ -1,7 +1,8 @@
 const HerosectionContact = () => {
   return (
     <>
-      <div className="text-center p-5">
+    <div className="flex justify-center">
+      <div className="text-center p-5 2xl:w-[1440px] w-auto">
         {/* Main title for the hero section */}
         <h1 className="text-xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold tracking-wide text-center text-white">
           Connect with Our Experts Today
@@ -22,6 +23,7 @@ const HerosectionContact = () => {
             className="h-96 w-full" // Responsive width and height
           ></iframe>
         </div>
+      </div>
       </div>
     </>
   );
