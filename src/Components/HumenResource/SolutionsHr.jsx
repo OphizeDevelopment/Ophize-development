@@ -77,7 +77,7 @@ const SolutionsHr = () => {
         {/* inner container */}
         <div className="flex flex-col gap-10 items-center">
           {/* title of the section */}
-          <div className=" text-center flex flex-col gap-4">
+          <div className=" text-center flex flex-col gap-4 mt-7">
             <h1 className="text-[#353535] md:text-4xl xs3:text-2xl text-xl tracking-wide font-bold">
               Enhancing Organizational Performance through <br /> Strategic HR
               Solutions

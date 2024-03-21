@@ -3,8 +3,9 @@ import excellenceImg from "../../assets/administrationExcellence.png";
 const Excellence = () => {
   return (
     <>
+    <div className="flex justify-center items-center">
       {/* main container for the page */}
-      <div className="flex flex-col justify-center items-center gap-10 p-14 m-12">
+      <div className="flex flex-col justify-center items-center gap-10 p-14 m-12 2xl:w-[1140px]">
         {/* container for the text and image */}
         <div className="flex xs:flex-col md:flex-row justify-center items-center gap-5  w-full">
           <img src={excellenceImg} alt="excellence image" />
@@ -37,6 +38,7 @@ const Excellence = () => {
           </p>
         </div>
       </div>
+</div>
     </>
   );
 };

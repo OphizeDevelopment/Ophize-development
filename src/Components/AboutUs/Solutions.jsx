@@ -5,8 +5,8 @@ import globalreachImage from "../../assets/globalreach.png";
 const Solutions = () => {
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 justify-center p-3 mt-4 pb-0">
-        <div className="p-8 pt-0 pb-0">
+      <div className="grid grid-cols-1 md:grid-cols-2 justify-center p-3 mt-4 pb-0 2xl:w-[1440px] w-auto mx-auto">
+        <div className="p-8 pt-0 pb-0 mt-7">
           {/* Title and introductory text */}
           <div className="p-5 pt-2">
             <p className="text-[#3B50BA] font-semibold sm:text-xl md:text-base xs:text-lg">
@@ -29,7 +29,7 @@ const Solutions = () => {
       </div>
 
       {/* efficiency, expertise, global reach section */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-8 justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-8 justify-center 2xl:w-[1440px] w-auto mx-auto mb-7">
         <div className="p-8 pt-0 pb-0">
           <div className="text-start">
             <img src={streamlinedImage} className="w-20" />

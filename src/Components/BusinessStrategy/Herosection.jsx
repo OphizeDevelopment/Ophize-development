@@ -4,19 +4,19 @@ const HerosectionStrgy = () => {
   return (
     <>
       {/* main container with width for the hero section */}
-      <div className="flex justify-center md:p-10 xs:p-2 ">
+      <div className="flex justify-center md:p-10  xs:p-2  ">
         {/* inner container for the image and text */}
-        <div className="w-[1250px] flex flex-col justify-center items-end gap-6 md:mx-10 ">
+        <div className="w-[1250px] flex md:flex-col flex-row justify-center gap-6 md:mx-10 mx-6 ">
           {/* container for the hero image and text  */}
-          <div className="justify-center flex flex-col md:items-end xs:items-center  ">
+          <div className="justify-center flex flex-col  xs:items-center  ">
             {/* text container */}
-            <div className="flex flex-col text-white xs2:items-start xs2:text-start text-center items-center gap-5">
+            <div className="flex flex-col text-white xs2:items-start xs2:text-start text-center items-center gap-5 z-0">
               {/* heading of the section */}
               <h1 className="text-xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-wide uppercase xs:text-lg">
-                business strategic consultancy
+                business <br /> strategic consultancy
               </h1>
               {/* description for the hero section */}
-              <p className="md:text-3xl xs2:text-base text-sm">
+              <p className="md:text-3xl xs2:text-base text-sm w-1/2">
                 Driving business success with strategic planning and
                 personalized consulting for robust growth.
               </p>
@@ -25,9 +25,9 @@ const HerosectionStrgy = () => {
                 request a qoute
               </button>
             </div>
-            <div className="flex flex-row-reverse xs:mt-5 xs:w-[250px] ">
-        
-              <img src={bg} alt="hero section image" />
+            {/* image container */}
+            <div className="md:absolute md:right-64 md:w-80 w-auto h-auto z-10 ">
+              <img src={bg} alt="hero section image " />
             </div>
           </div>
         </div>

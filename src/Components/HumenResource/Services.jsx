@@ -6,7 +6,7 @@ const ServicesHr = () => {
       {/* main container */}
       <div className="flex justify-center items-center px-10 lg:px-16 md:py-10 pb-20 md:h-screen m-8 ">
         {/* inner container for text and image */}
-        <div className="flex md:flex-row flex-col justify-center items-center gap-5  ">
+        <div className="flex md:flex-row flex-col justify-center items-center gap-5 2xl:w-[1440px] w-auto ">
           {/* text content container */}
           <div className=" flex flex-col gap-4 ">
             {/* title for the content */}

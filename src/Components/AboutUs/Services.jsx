@@ -6,7 +6,8 @@ import serviceImage2 from "../../assets/howitworks section photo.jpg";
 const ServicesAbout = () => {
   return (
     <>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 p-8 m-7">
+    <div className="flex justify-center">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 p-8 m-7 2xl:w-[1440px] w-auto">
         {/* Section: Benefit of Service */}
         <div className="sm:p-6 pt-0 pb-0 m-7">
           {/* Left side with benefits information */}
@@ -48,7 +49,7 @@ const ServicesAbout = () => {
         </div>
 
         {/* Right side with image */}
-        <div className="p-8 pt-0 pb-0 text-center">
+        <div className="p-8 pt-0 pb-0 text-center mt-7">
           <img src={serviceImage1} className="w-full" alt="Service Section" />
         </div>
 
@@ -99,6 +100,7 @@ const ServicesAbout = () => {
             </li>
           </ul>
         </div>
+      </div>
       </div>
     </>
   );

@@ -56,7 +56,7 @@ const Solutions = () => {
 
       <div className="w-full xs3:px-20 px-10 py-10 ">
         {/* inner container */}
-        <div className="flex flex-col gap-10 items-center">
+        <div className="flex flex-col gap-10 items-center mt-14 mx-12">
           {/* title section */}
           <div className="flex flex-col text-center gap-5 md:w-[750px] w-auto">
             <h1 className="text-[#353535] md:text-4xl xs3:text-2xl text-xl tracking-wide font-bold">
