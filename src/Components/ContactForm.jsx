@@ -41,16 +41,16 @@ const ContactForm = () => {
   return (
     <>
       {/* main container  */}
-      <div className=" flex md:flex-row xs:flex-col justify-center items-center mx-auto w-auto h-auto gap-9 p-20">
+      <div className=" flex md:flex-row flex-col justify-center items-center gap-9 mt-7 mb-5 mx-4">
         {/* form container with text and image */}
-        <div className="flex flex-col gap-5 h-auto">
+        <div className="flex flex-col gap-5 h-auto   ">
           {/* text container with heading and paragraph and form*/}
           <div className="items-start flex flex-col gap-7">
             <h1 className=" text-3xl font-bold xl:text-4xl xs2:text-2xl">
               <span className="text-black">Get in</span>{" "}
               <span className="text-blue-800">Touch</span>
             </h1>
-            <p className="xl:text-1xl xs2:text-sm xs:text-base font-medium md:font-semibold">
+            <p className="md:text-lg xs3:text-base text-sm font-medium md:font-semibold">
               Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu
               leo molestie vel, ornare non id blandit netus.
             </p>
@@ -133,7 +133,7 @@ const ContactForm = () => {
           </div>
         </div>
         {/* container with the image */}
-        <div className="w-auto">
+        <div className="w-auto h-auto mb-3">
           <img src={bg} alt="contact form image" />
         </div>
       </div>

@@ -3,9 +3,9 @@ import busSol from "../../assets/busSol.png";
 const solutions = () => {
   return (
     <>
-      <div className="flex md:flex-row flex-col justify-center md:py-16 md:px-16 py-5  mb-10 md:mb-0 px-14 items-center gap-10 p-10">
+      <div className="flex md:flex-row flex-col justify-center  mb-10 m-7  items-center">
         {/* img container */}
-        <div>
+        <div className="w-auto h-auto">
           <img src={busSol} alt="Business Solutions" />
         </div>
         {/* text content container */}
@@ -15,17 +15,17 @@ const solutions = () => {
             Optimal IT security solutions
           </h1>
           {/* Description paragraph */}
-          <p className="text-black lg:text-xl text-base font-medium md:mt-8">
+          <p className="text-black lg:text-xl text-base font-medium mt-7">
             We are Committed to delivering superior IT security in a dynamic
             digital landscape. Our team of certified,dedicated, and
             forward-thinking professionals ensures your data is protected and
             your business operation are secure and resilient against cyber
             threats.
           </p>
-          <h1 className="text-black text-2xl xs:text-xl font-semibold md:mt-9">
+          <h1 className="text-black text-2xl xs:text-xl font-semibold mt-8">
             Our Mission
           </h1>
-          <p className="text-black lg:text-xl text-base font-medium">
+          <p className="text-black lg:text-xl text-base font-medium mt-7">
             Empower business with advanced security startegies and
             infrastructure,fostering a secure and confident digital enviornnment
           </p>

@@ -54,30 +54,30 @@ const Solutions = () => {
     <>
       {/* main container div */}
 
-      <div className="w-full xs3:px-20 px-10 py-10 ">
+      <div className="2xl:w-[1440px] w-auto  mt-7 mx-auto mb-5 ">
         {/* inner container */}
-        <div className="flex flex-col gap-10 items-center mt-14 mx-12">
+        <div className="flex flex-col gap-7 items-center mx-9 pt-4 pb-4 ">
           {/* title section */}
           <div className="flex flex-col text-center gap-5 md:w-[750px] w-auto">
-            <h1 className="text-[#353535] md:text-4xl xs3:text-2xl text-xl tracking-wide font-bold">
+            <h1 className="text-[#353535] md:text-4xl xs3:text-2xl text-xl tracking-wide font-extrabold">
               Comprehensive Business Solutions
             </h1>
-            <h1 className="text-[#353535] md:text-xl xs3:text-xl text-lg tracking-wide font-semibold">
+            <h1 className="text-[#353535] md:text-lg xs3:text-lg text-base font-medium">
               Optimizing Performance Across All Facts of Your Enterprise
             </h1>
           </div>
           {/* container for displaying solution */}
-          <div className="flex flex-wrap gap-10 md:flex-row justify-center items-center 2xl:w-[1480px] w-full">
+          <div className="flex flex-wrap gap-4 md:flex-row justify-center items-center   w-full">
             {solution.map((sol) => (
               <div
                 key={sol.id}
-                className="xs3:flex items-start w-[35rem] xs3:gap-8 gap-3  xs3:px-10 px-3 py-10"
+                className="xs3:flex items-start w-[35rem] xs3:gap-8 gap-10 mt-5 md:px-5 md:py-7 "
               >
                 <div>
                   <h1 className="text-violet-700 md:text-2xl text-xl font-bold border-b-2 border-black mb-5">
                     {sol.title}
                   </h1>
-                  <p className="text-black font-medium text-lg">
+                  <p className="text-black md:text-lg xs3:text-base text-sm">
                     {sol.description}
                   </p>
                 </div>
