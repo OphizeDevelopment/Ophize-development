@@ -7,13 +7,13 @@ const Excellence = () => {
       {/* main container for the page */}
       <div className="flex flex-col justify-center items-center gap-10 p-14 m-12 2xl:w-[1140px]">
         {/* container for the text and image */}
-        <div className="flex xs:flex-col md:flex-row justify-center items-center gap-5  w-full">
+        <div className="flex xs:flex-col md:flex-row justify-center items-center gap-10  w-full">
           <img src={excellenceImg} alt="excellence image" />
           <div>
-            <h1 className="uppercase font-bold tracking-wide xl:text-4xl lg:text-3xl sm:text-2xl  w-full xs:text-xl text-center">
-              Mastering Administrative Excellence
+            <h1 className="uppercase font-bold tracking-wide xl:text-4xl lg:text-3xl sm:text-2xl  w-full xs:text-xl md:text-start xs:text-center">
+              Mastering Administrative <br /> Excellence
             </h1>
-            <p className="text-black lg:text-xl text-base font-medium text-center">
+            <p className="text-black lg:text-xl text-base font-medium md:text-start pt-5">
               "Unlock the full potential of your administrative operations with
               our comprehensive suite of services designed for peak efficiency
               and streamlined workflows."

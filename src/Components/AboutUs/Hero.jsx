@@ -5,7 +5,7 @@ const HeroAbout = () => {
     <>
     <div className="flex justify-center">
       {/* hero section */}
-      <div className="grid grid-cols-1 md:grid-cols-2 justify-center m-8 mt-4 2xl:w-[1440px] w-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 justify-center m-8 mt-4 2xl:w-[1440px] w-auto mx-10">
         <div className="p-8 my-5  pb-0">
           {/* Title and introductory text */}
           <div className="p-5 pt-2 flex flex-wrap gap-7">

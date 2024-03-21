@@ -7,7 +7,7 @@ const BpoSection = () => {
   return (
     <>
     <div className="flex justify-center">
-      <div className="grid grid-cols-1 md:grid-cols-2 justify-center p-3 mt-4 2xl:w-[1440px] w-auto ">
+      <div className="grid grid-cols-1 md:grid-cols-2 justify-center p-3 mt-8 2xl:w-[1440px] w-auto ">
         <div className="p-8 pt-0 pb-0 m-7">
           {/* Title and introductory text */}
           <div className="p-5 pt-2">

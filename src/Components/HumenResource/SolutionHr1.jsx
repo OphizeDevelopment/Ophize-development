@@ -17,7 +17,7 @@ const BgsolutionHr = () => {
   }, []);
 
   return (
-    <div className="relative w-full md:h-screen overflow-hidden">
+    <div className="relative  md:h-screen overflow-hidden 2xl:w-[1440px] w-auto mx-auto">
       {!isSmallScreen && (
         <div className="absolute inset-0 bg-black bg-cover bg-center">
           <img
