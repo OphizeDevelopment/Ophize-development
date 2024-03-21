@@ -34,7 +34,7 @@ const TechnologiesServices = () => {
       </div>
 
       {/* Statistics Section */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 p-8  bg-[#EBEFFF] sm:items-center m-7 2xl:w-[1440px] w-auto mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 p-8  bg-[#EBEFFF] sm:items-center m-7 2xl:w-[1440px] w-auto mx-auto -mt-10">
         <div className="p-8 pt-0 pb-0">
           <h1 className="text-2xl font-medium 2xl:text-2xl 4xl:text-5xl">
             200+ Experts

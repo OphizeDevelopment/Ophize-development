@@ -6,7 +6,7 @@ const BusinessSolution = () => {
     <>
     <div className="flex justify-center">
       {/* main container for the section */}
-      <div className="  flex flex-wrap  justify-center 2xl:w-[1440px] w-auto">
+      <div className="  flex flex-wrap  justify-center 2xl:w-[1440px] w-auto mb-5 pt-8 mx-4">
         {/* inner container for the content */}
         <div className="grid md:grid-cols-2 xs:grid-cols-1 items-center">
           {/* left side text container */}
