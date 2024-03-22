@@ -1,34 +1,29 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
-// Importing assets for the Navbar component
 import list from "../assets/list.png";
 import close from "../assets/close.png";
 import logo from "../assets/logo-ophize.png";
 import line from "../assets/Line.png";
 
 const Navbar = () => {
-  // State to handle the opening and closing of the mobile menu
   const [isOpen, setIsOpen] = useState(false);
 
-  // useLocation hook to get the current route's path
   const location = useLocation();
   const currentPath = location.pathname;
 
-  // Function to check if the current path is active for menu items
   const isActive = (paths) => paths.includes(currentPath);
 
   return (
     <>
-      {/* Top bar of the Navbar */}
-      <div className="flex justify-center py-5">
+      <div className="flex justify-center pt-5">
         <div className="flex justify-between items-center lg:w-[1020px] w-full px-8 py-4">
-          {/* Logo */}
+          <Link to="/">
           <div>
             <img src={logo} alt="Logo" className="md:w-auto w-32" />
           </div>
+          </Link>
 
-          {/* Hamburger Icon for mobile view */}
           <div onClick={() => setIsOpen(!isOpen)} className="md:hidden block">
             {isOpen ? (
               <div className="hamburger-icon text-white">
@@ -41,7 +36,6 @@ const Navbar = () => {
             )}
           </div>
 
-          {/* Desktop Menu Items */}
           <div
             className={`md:flex hidden ${
               isOpen ? "flex" : "hidden"
@@ -78,7 +72,6 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* Contact Us Button */}
           <div className={`${isOpen ? "flex" : "hidden"} md:flex hidden`}>
             <Link to="/contactus">
               <button className="uppercase bg-[#305197] px-6 py-3 rounded-lg text-white font-semibold text-sm">
@@ -89,7 +82,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       <div
         className={`md:hidden ${
           isOpen ? "flex" : "hidden"

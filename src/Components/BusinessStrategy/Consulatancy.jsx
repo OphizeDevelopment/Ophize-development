@@ -1,14 +1,12 @@
+/* eslint-disable react/no-unescaped-entities */
 import bg from "../../assets/businessCon.png";
 import bg2 from "../../assets/businessCon2.png";
 
 const Consultancy = () => {
   return (
     <>
-      {/* main parent container for the content */}
-      <div className="w-full justify-center flex flex-col items-center  gap-14 pt-7 pb-7 2xl:mt-10">
-        {/* first child container */}
+      <div className="w-full justify-center flex flex-col items-center gap-14 py-14">
         <div className="flex md:flex-row flex-col md:gap-14 xs:flex-col mx-10 xs:gap-5">
-          {/* container for the text  */}
           <div className="flex flex-col gap-5 text-black md:w-[550px] w-auto">
             <h1 className="text-[#353535] md:text-3xl xs3:text-2xl text-xl tracking-wide font-bold">
               Strategic Business Consultancy Solutions
@@ -27,13 +25,11 @@ const Consultancy = () => {
               feel free to ask!
             </p>
           </div>
-          <div className="w-auto mt-5">
+          <div className="w-auto mt-5 flex items-center justify-center">
             <img src={bg} alt="Business consulatancy solution" />
           </div>
         </div>
-        {/* second child container */}
         <div className="flex md:flex-row-reverse flex-col md:gap-14 xs:flex-col mx-10 xs:gap-5">
-          {/* container for the text of second child */}
           <div className="flex flex-col justify-center items-center  gap-5 md:w-[550px]">
             <h1 className="text-[#353535] md:text-3xl xs3:text-2xl text-xl tracking-wide font-bold">
               Innovative Strategic Business Advisory
@@ -47,7 +43,7 @@ const Consultancy = () => {
               advantage for robust, future-ready enterprise growth.
             </p>
           </div>
-          <div className="mt-5">
+          <div className="mt-5 flex items-center justify-center">
             <img src={bg2} alt="Strategic business advisory" />
           </div>
         </div>

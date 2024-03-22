@@ -7,27 +7,23 @@ const ServicesAbout = () => {
     <>
       <div className="flex justify-center">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 m-7 2xl:w-[1440px] w-auto">
-          {/* Section: Benefit of Service */}
           <div className="sm:p-6 pt-0 pb-0 m-7">
-            {/* Left side with benefits information */}
             <div>
-              {/* Title and introductory text */}
-              <h1 className="text-2xl font-bold 2xl:text-4xl 4xl:text-5xl ">
+              <h1 className="md:text-4xl xs3:text-2xl text-xl font-bold">
                 Benefits of Service
               </h1>
-              <p className="text-inherit mt-3 text-slate-500 text-base 2xl:text-2xl 4xl:text-4xl sm:text-xl md:text-base xs:text-lg">
+              <p className="text-inherit mt-3 text-slate-500 md:text-lg xs3:text-base text-base">
                 Our BPO services are designed to enhance operational efficiency
                 and deliver measurable business outcomes.
               </p>
-              <p className="text-medium text-inherit text-slate-500 text-base 2xl:text-2xl 4xl:text-4xl sm:text-xl md:text-base xs:text-lg">
+              <p className="text-inherit mt-3 text-slate-500 md:text-lg xs3:text-base text-base">
                 Partner with us to enjoy:
               </p>
             </div>
 
-            {/* List of benefits */}
             <div className="mt-5">
               <ul className="grid grid-cols-1">
-                <li className="font-medium items-start flex pb-2 2xl:text-2xl 4xl:text-4xl sm:text-xl md:text-base xs:text-lg">
+                <li className="font-medium items-start flex pb-2 2xl:text-2xl 4xl:text-4xl sm:text-xl md:text-base xs:text-">
                   <img
                     src={rightarrow}
                     className="mr-2 w-auto"
@@ -63,14 +59,10 @@ const ServicesAbout = () => {
             </div>
           </div>
 
-          {/* Right side with image */}
           <div className="mx-8 text-center mt-7">
             <img src={serviceImage1} className="w-full" alt="Service Section" />
           </div>
-
-          {/* Section: How It Works */}
-          {/* Left side with image */}
-          <div className="mx-8   text-center">
+          <div className="mx-8 flex justify-center items-center text-center">
             <img
               src={serviceImage2}
               className="w-full pt-7"
@@ -78,13 +70,12 @@ const ServicesAbout = () => {
             />
           </div>
 
-          {/* Right side with information about how it works */}
-          <div className="mt-7 mx-7">
+          <div className="">
             <div className="p-5 pl-0 pt-0 xl:pt-5">
-              <h1 className="text-2xl font-bold  mb-4 pl-0 pb-2 2xl:text-4xl 4xl:text-5xl">
+              <h1 className="md:text-4xl xs3:text-2xl text-xl font-bold">
                 How It Works
               </h1>
-              <p className="text-slate-500 text-medium 2xl:text-2xl 4xl:text-3xl sm:text-xl md:text-base xs:text-lg">
+              <p className="text-slate-500 md:text-lg xs3:text-base text-base">
                 We take a structured approach to manage your business processes:
               </p>
             </div>

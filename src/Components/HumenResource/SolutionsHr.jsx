@@ -68,22 +68,17 @@ const SolutionsHr = () => {
         "Effortlessly intergrate your schedule with our customer-centric verification process.We prioritize your time with adaptable appointment options to streamline your KYC requirements",
     },
   ];
-  // gap-10 px-10 md:py-36 py-16
 
   return (
     <>
-      {/* container div */}
       <div className="w-full xs3:px-20  2xl:w-[1480px] mx-auto">
-        {/* inner container */}
         <div className="flex flex-col gap-10 items-center mt-9 mb-10 mx-6">
-          {/* title of the section */}
           <div className=" text-center flex   mt-6">
             <h1 className="text-[#353535] md:text-4xl xs3:text-2xl text-xl tracking-wide font-bold">
               Enhancing Organizational Performance through <br /> Strategic HR
               Solutions
             </h1>
           </div>
-          {/* container for displaying the solutions */}
           <div className="flex  flex-wrap justify-center items-center 2xl:w-[1480px] w-full">
             {solutions.map((solution) => (
               <div

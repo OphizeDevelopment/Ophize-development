@@ -1,11 +1,8 @@
-/* eslint-disable react/no-unescaped-entities */
-// Importing necessary assets and components
 import img from "../../assets/service-img.png";
 import icon from "../../assets/service-icon.png";
 import { Link } from "react-router-dom";
 
 const services = () => {
-  // Arrays of service items for the left and right columns
   const itemsleft = [
     { id: 1, title: "Finance and Accounts", to: "/financeandaccounts" },
     { id: 2, title: "IT security and services", to: "/itandsecurity" },
@@ -21,24 +18,17 @@ const services = () => {
 
   return (
     <>
-      <div className="w-full flex justify-center py-10 px-10">
-        {/* Inner container with flexible layout for the image and service items */}
-        <div className="flex md:flex-row flex-col justify-center md:gap-32 gap-10">
-          {/* Image container */}
+      <div className="w-full flex justify-center py-14 px-10">
+        <div className="flex md:flex-row flex-col md:gap-32 gap-10">
           <div className="flex justify-center items-center">
             <img src={img} alt="Service Image" />
           </div>
-          {/* Container for service links and descriptions */}
           <div className="w-auto">
-            {/* Section heading */}
             <h1 className="text-black uppercase text-sm font-semibold">
               experts in domains
             </h1>
-
-            {/* Container for service items in left and right columns */}
             <div className="xs2:flex-row flex flex-col xs2:gap-10 xs2:items-start">
-              {/* Left column service items */}
-              <div className="flex flex-col gap-8 mt-8">
+              <div className="flex flex-col md:gap-8 gap-5 mt-8">
                 {itemsleft.map((item) => (
                   <div key={item.id} className="flex gap-3 items-start">
                     <img src={icon} alt="Service Icon" />
@@ -50,8 +40,7 @@ const services = () => {
                   </div>
                 ))}
               </div>
-              {/* Right column service items */}
-              <div className="flex flex-col gap-8 mt-8">
+              <div className="flex flex-col md:gap-8 gap-5 mt-8">
                 {itemsright.map((item) => (
                   <div key={item.id} className="flex gap-3 items-start">
                     <img src={icon} alt="Service Icon" />
@@ -65,7 +54,6 @@ const services = () => {
               </div>
             </div>
 
-            {/* Additional service item */}
             <div className="flex flex-col gap-8 mt-8 justify-start items-start">
               <div className="flex gap-3 items-center">
                 <img src={icon} alt="Service Icon" />
@@ -77,15 +65,16 @@ const services = () => {
               </div>
             </div>
 
-            {/* Additional text and call to action */}
-            <div className="flex flex-col gap-3">
-              <p className="text-[#5E5E5E] xs2:text-base text-sm mt-10">
+            <div className="flex flex-col gap-3 mt-10">
+              <div className="text-[#5E5E5E] xs2:text-base text-sm">
                 Check out our range of services that can help drive your
-                company's growth and promote long-term sustainability
-              </p>
-              <h1 className="text-[#2E2E2E] text-sm font-bold">
-                LEARN SERVICE DETAILS
-              </h1>
+                company's growth  and promote long-term sustainability
+              </div>
+              <Link to='/services'>
+                <h1 className="text-[#2E2E2E] text-sm font-bold">
+                  LEARN SERVICE DETAILS
+                </h1>
+              </Link>
             </div>
           </div>
         </div>

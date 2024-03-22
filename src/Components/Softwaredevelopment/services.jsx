@@ -1,4 +1,3 @@
-// Importing icon images
 import icon1 from "../../assets/soft-icon1.png";
 import icon2 from "../../assets/soft-icon2.png";
 import icon3 from "../../assets/soft-icon3.png";
@@ -7,7 +6,6 @@ import icon5 from "../../assets/soft-icon5.png";
 import icon6 from "../../assets/soft-icon6.png";
 
 const services = () => {
-  // Array of service objects, each containing an id, icon, title, and description
   const services = [
     {
       id: 1,
@@ -56,9 +54,7 @@ const services = () => {
   return (
     <>
       <div>
-        {/* Container for service section with padding and layout */}
         <div className="flex flex-col justify-center items-center py-16 px-10 gap-12">
-          {/* Title and subtitle for the services section */}
           <div className="flex flex-col gap-3 items-center text-center">
             <h1 className="md:text-4xl text-2xl tracking-wide font-bold">
               Expertise to Innovate
@@ -68,10 +64,8 @@ const services = () => {
               vision into reality with cutting-edge solutions.
             </p>
           </div>
-          {/* Container for displaying each service item */}
           <div className="flex flex-wrap gap-10 justify-center items-center w-full 2xl:w-[1440px]">
             {services.map((service) => (
-              // Individual service card
               <div
                 key={service.id}
                 className="flex flex-col items-start gap-3 border px-5 py-5 xs3:px-10 xs3:py-10 border-black rounded-xl xs3:w-[27rem] xs3:h-[17rem]"

@@ -84,15 +84,12 @@ const SolutionsService = () => {
   ];
   return (
     <>
-      {/* main div for the container */}
       <div className="flex flex-wrap p-10 items-center justify-center 2xl:w-[1440px] w-auto mx-auto">
-        {/* container for displaying the solutions */}
         <div className="grid lg:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1  justify-items-center gap-7 mx-9 w-full ">
-          {/* mapping the solutions */}
           {solutions.map((solution, index) => (
             <div
               key={index}
-              className=" w-full xl:w-[25rem] flex flex-col items-start justify-center gap-7  md:h-96  sm:h-70  shadow-md border border-blue-300 mt-5 p-5 "
+              className=" w-full xl:w-[25rem] flex flex-col items-start justify-center gap-7  h-auto shadow-md border border-blue-300 mt-5 p-5 "
             >
               <img src={solution.imgSrc} alt="img" className="h-28" />
               <h1 className="xs3:text-lg font-bold  capitalize">

@@ -1,11 +1,9 @@
-// Importing image assets
 import img from "../../assets/logiside.png";
 import w1 from "../../assets/warehouse1.png";
 import w2 from "../../assets/warehouse2.png";
 import w3 from "../../assets/warehouse3.png";
 
 const process = () => {
-  // Array of services, each with an image source, title, and description
   const services = [
     {
       imgSrc: w1,
@@ -29,17 +27,13 @@ const process = () => {
 
   return (
     <div className="bg-[#E2EDFA] flex justify-center items-center w-full mb-20">
-      {/*  Inner container with flex layout and padding */}
       <div className="flex flex-col justify-center items-center gap-10 md:gap-20 px-10 py-20 w-full">
-        {/* Title section */}
         <div className="text-black">
           <h1 className="md:text-4xl text-2xl text-center tracking-wide font-bold">
             Our Logistics Documentation Process
           </h1>
         </div>
-        {/* Content section with flexible layout for image and service descriptions */}
         <div className="flex md:flex-row flex-col items-center gap-10 justify-center">
-          {/* Image container */}
           <div className=" flex justify-center items-center">
             <img
               src={img}
@@ -48,10 +42,8 @@ const process = () => {
             />
           </div>
 
-          {/* Services container */}
           <div className="md:w-1/3">
             <div className="flex flex-col gap-8 ">
-              {/* Mapping each service to a layout */}
               {services.map((service, index) => (
                 <div
                   key={index}

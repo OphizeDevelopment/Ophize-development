@@ -1,7 +1,5 @@
-// Importing the Marquee component from react-fast-marquee package
 import Marquee from "react-fast-marquee";
 
-// Importing images for client logos
 import l1 from "../assets/VAM.png";
 import l2 from "../assets/AMST.png";
 import l3 from "../assets/SAMKIDS.png";
@@ -11,30 +9,23 @@ import l6 from "../assets/ROUND SQUARE.png";
 
 const Clients = () => {
   return (
-    //  Main container div with full width and vertical padding
     <div className="w-full py-10">
-      {/* Div to center the title */}
       <div className="flex justify-center ">
-        {/* Title for the clients section */}
         <h1 className="text-[#2E2E2E] text-3xl font-semibold tracking-wider mb-5">
           Our Clients
         </h1>
       </div>
-      {/* Div for the marquee section with centered content and a styled
-      background */}
       <div
         className="flex justify-center items-center "
         style={{ background: "rgba(169, 169, 169, 0.20)" }}
       >
-        {/* Marquee component to create a scrolling effect */}
         <Marquee
-          pauseOnHover={true} // Pauses the scrolling on mouse hover
-          speed={50} // Speed of the scrolling
-          gradient={false} // Disables gradient effect at the edges
-          className="py-5" // Padding for the marquee container
-          style={{ maxWidth: "1250px" }} // Maximum width of the marquee
+          pauseOnHover={true} 
+          speed={50} 
+          gradient={false} 
+          className="py-5" 
+          style={{ maxWidth: "1250px" }} 
         >
-          {/* Client logos displayed as scrolling images */}
           <a
             href="https://vamlogistics.com"
             target="_blank"

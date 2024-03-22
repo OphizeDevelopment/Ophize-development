@@ -6,18 +6,17 @@ const solutions = () => {
     <>
       <div className="flex justify-center items-center xs3:px-10 md:py-10 pb-5 md:pb-20">
         {/* Inner container with flexible layout for the image and text content */}
+
         <div className="flex md:flex-row flex-col justify-center items-center gap-10 mx-11">
-          {/* Image container */}
           <div>
             <img src={sideimg} alt="Customized Financial Solutions" />
           </div>
           {/* Text content container with flexible width and vertical spacing */}
           <div className="lg:w-[50rem]  flex flex-col gap-4">
-            {/* Title for the section */}
+            
             <h1 className="xl:text-4xl xs3:text-3xl xs2:text-xl font-bold tracking-wide xs3:text-start text-center">
               Tailored to Your Business: Customized Financial Solutions
             </h1>
-            {/* Description paragraph */}
             <p className="text-[#9CA3AF] xs3:text-base text-sm xs3:text-start text-center">
               At the core of our services lies a deep understanding that each
               business has its distinct financial management needs. Our suite of
@@ -25,7 +24,6 @@ const solutions = () => {
               specialize in crafting a bespoke approach that aligns perfectly
               with the unique operations and objectives of your business.
             </p>
-            {/* Additional information or call to action */}
             <p className="text-[#305197] xs3:text-base text-sm xs3:text-start text-center">
               Explore our stratergies
             </p>

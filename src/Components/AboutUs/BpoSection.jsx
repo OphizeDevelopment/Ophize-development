@@ -9,7 +9,6 @@ const BpoSection = () => {
     <div className="flex justify-center">
       <div className="grid grid-cols-1 md:grid-cols-2 justify-center p-3 mt-8 2xl:w-[1440px] w-auto ">
         <div className="mx-9">
-          {/* Title and introductory text */}
           <div className="p-5 pt-2">
             <p className="text-lg flex items-center 2xl:text-2xl 4xl:text-2xl">
               <img src={patternimage} className="mr-2 " />
@@ -40,7 +39,6 @@ const BpoSection = () => {
         </div>
         <div className="mt-5 pl-1 text-start font-medium 2xl:text-xl 4xl:text-4xl md:h-fit">
           <div className="mx-9">
-            {/* image section */}
             <img src={whyusimage} className="w-full" />
           </div>
         </div>

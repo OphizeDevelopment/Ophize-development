@@ -8,10 +8,9 @@ import passport from "../../assets/passport.png";
 
 const OptimizingCard = ({ title, description, icon }) => {
   return (
-    <div className="flex flex-col md:flex-row md:text-left md:items-start mx-auto  w-auto gap-20  ">
-      {/* Inner container for the card's content */}
-      <div className="flex flex-col gap-3 mb-5 lg:w-full md:h-48 h-auto items-start  ">
-        <img src={icon} alt={title} className="w-10 h-10" />
+    <div className="flex flex-col md:flex-row md:text-left md:items-start 2xl:mx-auto  w-auto gap-20  ">
+      <div className="flex flex-col gap-3 mb-5 lg:w-full  h-auto items-start  ">
+        <img src={icon} alt={title} className="w-auto h-auto" />
         <h2 className="md:text-xl font-semibold capitalize">{title}</h2>
         <p className="text-gray-600 xl:w-[20rem] leading-relaxed md:text-base text-sm">
           {description}
@@ -24,10 +23,8 @@ const OptimizingCard = ({ title, description, icon }) => {
 const Efficiency = () => {
   return (
     <>
-      {/* main div */}
       <div className="flex justify-center">
         <div className="2xl:w-[1440px] w-auto mx-8 mt-5 mb-5">
-          {/* main optimizing page head */}
           <div className="m-5 2xl:pl-44">
             <h1 className="capitalize font-bold tracking-wide xl:text-4xl lg:text-3xl sm:text-2xl  w-full xs:text-xl ">
               Optimizing Efficiency :

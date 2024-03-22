@@ -4,11 +4,8 @@ const HerosectionService = () => {
   return (
     <>
       <div className="flex justify-center">
-        {/* main container with width and height*/}
         <div className="flex flex-col justify-center items-center 2xl:w-[1440px] w-auto mx-auto">
-          {/* text and heading container */}
           <div className="w-fit flex flex-col items-center justify-center pb-9  gap-5 m-6 ">
-            {/* heading for the herosection */}
             <h1 className="md:text-5xl xs2:text-3xl text-xl font-bold tracking-wide text-gray-300 uppercase">
               discover our expert services
             </h1>
@@ -18,14 +15,12 @@ const HerosectionService = () => {
               every aspect of your enterprise.
             </p>
           </div>
-          {/* Image container with content  */}
           <div
             className=" flex bg-cover bg-center w-full h-full justify-center content-center p-11 items-start  "
             style={{
               backgroundImage: `url(${serH})`,
             }}
           >
-            {/* text container */}
             <div className="flex flex-col justify-center items-start text-white mx-auto pt-8 gap-8 xs:max-w-none md:w-[745px] w-auto">
               <button className="capitalize bg-[#305197]   px-4 py-2 rounded-3xl text-white sm:text-base text-sm">
                 Best

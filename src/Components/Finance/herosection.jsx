@@ -1,4 +1,3 @@
-// Importing the hero image asset for the accounts and finance section
 import heroimg from "../../assets/financehero-img.png";
 
 const herosection = () => {
@@ -15,15 +14,14 @@ const herosection = () => {
             </h1>
             {/* Description paragraph */}
             <p className="lg:text-3xl md:text-2xl xs2:text-base tracking-wide text-sm xs3:w-3/4">
+
               Optimize Your Financial Health: Expert Accounting Services to
               Elevate Your Credit Score and Investment Strategy
             </p>
-            {/* Contact button */}
             <button className="capitalize bg-[#305197] px-5 py-2 sm:px-10 sm:py-3 rounded-lg text-white sm:text-base text-sm">
               Contact us
             </button>
           </div>
-          {/* Image container for the hero section */}
           <div>
             <img
               src={heroimg}

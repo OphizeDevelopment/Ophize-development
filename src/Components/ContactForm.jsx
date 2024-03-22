@@ -4,7 +4,6 @@ import * as Yup from "yup";
 import bg from "../../src/assets/contactFormBg.png";
 import axios from "axios";
 
-// form validation
 const formvalidation = Yup.object().shape({
   name: Yup.string().required("Name is required"),
   email: Yup.string().email("Invalid email").required("Email is required"),
@@ -14,7 +13,6 @@ const formvalidation = Yup.object().shape({
   comment: Yup.string().required("Message is required"),
 });
 
-// form submission endpoint
 const onSumbit = async (values, { setSubmitting, resetForm }) => {
   try {
     const response = await axios.post(
@@ -27,7 +25,6 @@ const onSumbit = async (values, { setSubmitting, resetForm }) => {
     if (error.response) {
       console.error("Server Error:", error.response.data);
     } else if (error.request) {
-      // The request was made but no response was received
       console.error("Network Error:", error.request);
     } else {
       console.error("Error:", error.message);
@@ -40,22 +37,17 @@ const onSumbit = async (values, { setSubmitting, resetForm }) => {
 const ContactForm = () => {
   return (
     <>
-      {/* main container  */}
-      <div className=" flex md:flex-row flex-col justify-center items-center gap-9 mt-7 mb-5 mx-4">
-        {/* form container with text and image */}
-        <div className="flex flex-col gap-5 h-auto   ">
-          {/* text container with heading and paragraph and form*/}
-          <div className="items-start flex flex-col gap-7">
-            <h1 className=" text-3xl font-bold xl:text-4xl xs2:text-2xl">
+      <div className=" flex md:flex-row flex-col justify-center items-center gap-10">
+        <div className="flex flex-col gap-5 h-auto">
+          <div className="items-start flex flex-col">
+            <h1 className=" text-3xl font-bold xl:text-4xl xs2:text-2xl mb-5">
               <span className="text-black">Get in</span>{" "}
               <span className="text-blue-800">Touch</span>
             </h1>
-            <p className="md:text-lg xs3:text-base text-sm font-medium md:font-semibold">
-              Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu
-              leo molestie vel, ornare non id blandit netus.
+            <p className="md:text-lg xs3:text-base text-xs font-medium md:font-semibold">
+            Our dedicated team is ready to assist you with your needs
             </p>
           </div>
-          {/* form container */}
           <div>
             <Formik
               initialValues={{ name: "", email: "", phone: "", comment: "" }}
@@ -132,7 +124,6 @@ const ContactForm = () => {
             </Formik>
           </div>
         </div>
-        {/* container with the image */}
         <div className="w-auto h-auto mb-3">
           <img src={bg} alt="contact form image" />
         </div>
