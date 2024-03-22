@@ -1,4 +1,3 @@
-// Importing images for the component
 import i1 from "../../assets/h1.png";
 import i2 from "../../assets/h2.png";
 import i3 from "../../assets/h3.png";
@@ -7,7 +6,6 @@ import i5 from "../../assets/h5.png";
 import img from "../../assets/highlight-img.png";
 
 const highlight = () => {
-  // Array of item objects for key services, each containing an id, title, description, and image
   const items = [
     {
       id: 1,
@@ -48,15 +46,11 @@ const highlight = () => {
   return (
     <>
       <div className="w-full flex justify-center items-center py-10 px-10">
-         {/* Inner container with flexible layout and fixed width */}
         <div className="flex md:flex-row flex-col gap-10 w-[1250px]">
-           {/* Container for text content and items */}
           <div className="flex flex-col gap-8">
-             {/* Title for the section */}
             <h1 className="sm:text-3xl xs:text-xl text-sm tracking-wider font-bold text-[#3C3C3C] 2xl:mb-5 md:text-start text-center md:capitalize uppercase">
               Highlighting key services and expertise
             </h1>
-            {/* Mapping each item to a layout */}
             {items.map((item) => (
               <div key={item.id} className="flex items-center gap-5">
                 <img src={item.img} alt={item.title} />
@@ -69,8 +63,7 @@ const highlight = () => {
               </div>
             ))}
           </div>
-           {/* Image container for the right side of the section */}
-          <div className="flex items-end">
+          <div className="flex items-center lg:items-end">
             <img src={img} alt="Service Highlights" />
           </div>
         </div>

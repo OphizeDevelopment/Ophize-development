@@ -5,7 +5,7 @@ const Consultancy = () => {
   return (
     <>
       {/* main parent container for the content */}
-      <div className="w-full justify-center flex flex-col items-center  gap-14 pt-7 pb-7 2xl:mt-10">
+      <div className="w-full justify-center flex flex-col items-center  gap-14  py-14">
         {/* first child container */}
         <div className="flex md:flex-row flex-col md:gap-14 xs:flex-col mx-10 xs:gap-5">
           {/* container for the text  */}
