@@ -5,10 +5,12 @@ import globalreachImage from "../../assets/globalreach.png";
 const Solutions = () => {
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 justify-center mt-4 pb-0 2xl:w-[1440px] w-auto mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 justify-center my-14 pb-0 2xl:w-[1440px] w-auto mx-auto">
         <div className="mx-9">
-          <div className="p-5 pt-2">
-            <p className="text-[#3B50BA] font-semibold sm:text-xl md:text-base xs:text-lg">
+         
+          <div className="p-5 ">
+            <p className="text-[#3B50BA] font-semibold sm:text-2xl md:text-lg xs:text-lg">
+
               Benefits
             </p>
             <h1 className="md:text-[44px]  font-medium  2xl:text-4xl 4xl:text-5xl md:text-start mt-3 xs:text-[30px]">
@@ -26,6 +28,7 @@ const Solutions = () => {
           </div>
         </div>
       </div>
+
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-7 p-8 justify-center 2xl:w-[1440px] w-auto mx-auto mb-7">
         <div className="mx-9">

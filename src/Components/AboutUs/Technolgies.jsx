@@ -4,11 +4,11 @@
 const TechnologiesServices = () => {
   return (
     <>
-    <div>
-      <div className="grid grid-cols-1 md:grid-cols-2 justify-center p-3 mt-4 bg-[#EBEFFF] m-8 2xl:w-[1440px] w-auto mx-auto">
+    <div className=" bg-[#EBEFFF]">
+      <div className="grid grid-cols-1 md:grid-cols-2 justify-center  bg-[#EBEFFF] my-14 2xl:w-[1440px] w-full mx-auto">
         <div className="mx-9 ">
           <div className="">
-            <h1 className="text-2xl  font-bold 2xl:text-4xl 4xl:text-5xl md:text-start">
+            <h1 className="md:text-4xl xs3:text-2xl text-xl font-bold mt-2">
               Streamlining Go-to-Market Strategies with Advanced Technologies
             </h1>
           </div>
@@ -25,7 +25,7 @@ const TechnologiesServices = () => {
               We are dedicated to crafting comprehensive solutions that tackle
               your most challenging problems and yield tangible results.
             </p>
-            <p className="mt-5 mb-5">
+            <p className="mt-5 mb-9">
               We're here to deliver exceptional services that resonate with your
               business objectives.
             </p>
@@ -33,7 +33,9 @@ const TechnologiesServices = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 p-8  bg-[#EBEFFF] sm:items-center m-7 2xl:w-[1440px] w-auto mx-auto -mt-10">
+     
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 my-14 pb-5  bg-[#EBEFFF] sm:items-center m-7 2xl:w-[1440px] w-auto mx-auto -mt-14 items-center">
+
         <div className="mx-9">
           <h1 className="text-2xl font-medium 2xl:text-2xl 4xl:text-5xl">
             200+ Experts
