@@ -49,9 +49,9 @@ const services = () => {
 
   return (
     <>
-      <div className="w-full xs3:px-20 px-10 py-20">
+      <div className="w-full xs3:px-20 px-10 py-10 md:py-20">
         {/* Inner container for the services section with vertical spacing */}
-        <div className="flex flex-col gap-10">
+        <div className="flex flex-col gap-5 lg:gap-10">
           {/* Title and subtitle for the section */}
           <div className=" text-center flex flex-col gap-4">
             <h1 className="text-[#353535] md:text-4xl xs3:text-2xl text-xl tracking-wide font-bold">

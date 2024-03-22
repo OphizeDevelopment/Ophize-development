@@ -54,7 +54,7 @@ const Solutions = () => {
     <>
       {/* main container div */}
 
-      <div className="2xl:w-[1440px] w-auto  mt-7 mx-auto mb-5 ">
+      <div className="2xl:w-[1440px] w-auto  mt-7 mx-auto mb-0 ">
         {/* inner container */}
         <div className="flex flex-col gap-7 items-center mx-9 pt-4 pb-4 ">
           {/* title section */}
@@ -71,7 +71,7 @@ const Solutions = () => {
             {solution.map((sol) => (
               <div
                 key={sol.id}
-                className="xs3:flex items-start w-[35rem] xs3:gap-8 gap-10 mt-5 md:px-5 md:py-7 "
+                className="xs3:flex items-start w-[35rem] xs3:gap-8 gap-10 mt-5 md:px-5 md:py-2 3xl:py-7 2xl:py-5 "
               >
                 <div>
                   <h1 className="text-violet-700 md:text-2xl text-xl font-bold border-b-2 border-black mb-5">
