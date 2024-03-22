@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 
 
 const TechnologiesServices = () => {
@@ -6,7 +7,6 @@ const TechnologiesServices = () => {
     <div>
       <div className="grid grid-cols-1 md:grid-cols-2 justify-center p-3 mt-4 bg-[#EBEFFF] m-8 2xl:w-[1440px] w-auto mx-auto">
         <div className="mx-9 ">
-          {/* Title and introductory text */}
           <div className="">
             <h1 className="text-2xl  font-bold 2xl:text-4xl 4xl:text-5xl md:text-start">
               Streamlining Go-to-Market Strategies with Advanced Technologies
@@ -33,7 +33,6 @@ const TechnologiesServices = () => {
         </div>
       </div>
 
-      {/* Statistics Section */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 p-8  bg-[#EBEFFF] sm:items-center m-7 2xl:w-[1440px] w-auto mx-auto -mt-10">
         <div className="mx-9">
           <h1 className="text-2xl font-medium 2xl:text-2xl 4xl:text-5xl">

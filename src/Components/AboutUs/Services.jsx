@@ -7,11 +7,8 @@ const ServicesAbout = () => {
     <>
       <div className="flex justify-center">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 m-7 2xl:w-[1440px] w-auto">
-          {/* Section: Benefit of Service */}
           <div className="sm:p-6 pt-0 pb-0 m-7">
-            {/* Left side with benefits information */}
             <div>
-              {/* Title and introductory text */}
               <h1 className="md:text-4xl xs3:text-2xl text-xl font-bold">
                 Benefits of Service
               </h1>
@@ -24,7 +21,6 @@ const ServicesAbout = () => {
               </p>
             </div>
 
-            {/* List of benefits */}
             <div className="mt-5">
               <ul className="grid grid-cols-1">
                 <li className="font-medium items-start flex pb-2 2xl:text-2xl 4xl:text-4xl sm:text-xl md:text-base xs:text-">
@@ -63,13 +59,9 @@ const ServicesAbout = () => {
             </div>
           </div>
 
-          {/* Right side with image */}
           <div className="mx-8 text-center mt-7">
             <img src={serviceImage1} className="w-full" alt="Service Section" />
           </div>
-
-          {/* Section: How It Works */}
-          {/* Left side with image */}
           <div className="mx-8 flex justify-center items-center text-center">
             <img
               src={serviceImage2}
@@ -78,7 +70,6 @@ const ServicesAbout = () => {
             />
           </div>
 
-          {/* Right side with information about how it works */}
           <div className="">
             <div className="p-5 pl-0 pt-0 xl:pt-5">
               <h1 className="md:text-4xl xs3:text-2xl text-xl font-bold">

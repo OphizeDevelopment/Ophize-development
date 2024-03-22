@@ -1,4 +1,3 @@
-// Importing image assets
 import img from "../../assets/lifecycleimg.png";
 import l1 from "../../assets/l1.png";
 import l2 from "../../assets/l2.png";
@@ -10,7 +9,6 @@ import l7 from "../../assets/l7.png";
 import line from "../../assets/life-line.png";
 
 const lifecycle = () => {
-  // Array of steps in the software development lifecycle, each with an id, image source, and title
   const steps = [
     { id: 1, imgSrc: l1, title: "Planning" },
     { id: 2, imgSrc: l2, title: "Designing" },
@@ -24,9 +22,7 @@ const lifecycle = () => {
   return (
     <>
       <div className="w-full px-10 md:py-20">
-        {/* Inner container for layout and spacing */}
         <div className="flex flex-col md:gap-20 gap-10">
-          {/* Heading and description section */}
           <div className="flex flex-col gap-4 justify-center items-center">
             <h1 className="uppercase lg:text-4xl text-2xl font-bold text-center">
               software development lifecycle
@@ -37,9 +33,7 @@ const lifecycle = () => {
               solutions in a structured and methodical way.
             </p>
           </div>
-          {/* Steps section with flexible layout */}
           <div className="flex md:flex-row flex-col md:gap-32 justify-center items-center">
-            {/* Container for steps with mapping each step to a layout */}
             <div className="flex flex-col justify-between gap-3">
               {steps.map((step) => (
                 <>
@@ -53,7 +47,6 @@ const lifecycle = () => {
                 </>
               ))}
             </div>
-            {/* Image for the lifecycle */}
             <div>
               <img src={img} alt="Lifecycle" />
             </div>

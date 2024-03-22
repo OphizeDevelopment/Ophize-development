@@ -5,11 +5,8 @@ const BusinessSolution = () => {
   return (
     <>
       <div className="flex justify-center">
-        {/* main container for the section */}
         <div className="  flex flex-wrap  justify-center 2xl:w-[1440px] w-auto mb-5 pt-8">
-          {/* inner container for the content */}
           <div className="grid md:grid-cols-2 xs:grid-cols-1 items-center mx-7">
-            {/* left side text container */}
             <div className="h-full gap-6 flex flex-col justify-center text-left p-8 bg-[#3B50BA] mt-9 mb-7">
               <h1 className="capitalize text-white text-3xl font-bold">
                 Tailored Solutions for Every
@@ -28,15 +25,12 @@ const BusinessSolution = () => {
                 to thrive in today's competitive market."
               </p>
             </div>
-            {/* right side text container */}
             <div className="relative w-full h-full mt-9 mb-7 ">
-              {/* image for the background */}
               <img
                 src={businessSol}
                 alt="businessSol"
                 className="object-cover w-full h-full "
               />
-              {/* container for the text */}
               <div className="absolute inset-0 flex justify-center items-center p-10 text-white bg-[#666C89E0] xs:p-5 md:p-4">
                 <p className="text-base xs:text-sm md:text-lg xl:text-xl font-medium text-center">
                   Our approach ensures that every line of code is crafted for

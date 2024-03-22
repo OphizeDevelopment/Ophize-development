@@ -84,11 +84,8 @@ const SolutionsService = () => {
   ];
   return (
     <>
-      {/* main div for the container */}
       <div className="flex flex-wrap p-10 items-center justify-center 2xl:w-[1440px] w-auto mx-auto">
-        {/* container for displaying the solutions */}
         <div className="grid lg:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1  justify-items-center gap-7 mx-9 w-full ">
-          {/* mapping the solutions */}
           {solutions.map((solution, index) => (
             <div
               key={index}
