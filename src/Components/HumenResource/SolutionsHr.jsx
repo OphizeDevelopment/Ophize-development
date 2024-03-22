@@ -5,9 +5,7 @@ import hrS4 from "../../assets/hrS4.png";
 import hrS5 from "../../assets/hrS5.png";
 import hrS6 from "../../assets/hrS6.png";
 import hrS7 from "../../assets/hrS7.png";
-import hrS8 from "../../assets/hrS8.png";
-
-import services from "../Finance/services";
+import hrS8 from "../../assets/hrS8.png"; 
 
 const SolutionsHr = () => {
   const solutions = [

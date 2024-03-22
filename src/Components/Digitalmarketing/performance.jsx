@@ -30,6 +30,5 @@ const Performance = () => {
     </div>
   );
 };
-
-// Exporting the Performance component for showcasing digital marketing performance strategies
+ 
 export default Performance;

@@ -57,12 +57,9 @@ const services = () => {
               Our Logistics Services
             </h1>
           </div>
-
-          {/* Container for displaying each service item */}
+ 
           <div className="flex flex-wrap gap-10 items-center justify-center 2xl:w-[1440px] xs3:w-[75%] w-full">
-            {/* Mapping each service to a card layout */}
-
-            {services.map((service, index) => (
+       {services.map((service, index) => (
               <div
                 key={index}
                 className="w-full xl:w-[25rem] flex flex-col items-start justify-center md:gap-5 gap-2"
