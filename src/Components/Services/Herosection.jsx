@@ -5,14 +5,14 @@ const HerosectionService = () => {
     <>
       <div className="flex justify-center">
         {/* main container with width and height*/}
-        <div className="flex flex-col   justify-center items-center 2xl:w-[1440px] w-auto mx-auto">
+        <div className="flex flex-col justify-center items-center 2xl:w-[1440px] w-auto mx-auto">
           {/* text and heading container */}
-          <div className="w-fit flex flex-col items-center justify-center  gap-5 md:w-[60rem] p-32 xs:p-5 md:h-80 mt-9 mb-9">
+          <div className="w-fit flex flex-col items-center justify-center pb-9  gap-5 m-6 ">
             {/* heading for the herosection */}
             <h1 className="md:text-5xl xs2:text-3xl text-xl font-bold tracking-wide text-gray-300 uppercase">
               discover our expert services
             </h1>
-            <p className="md:text-xl xs2:text-base text-sm font-mono pl-48 pr-48 xs:p-0 text-gray-400">
+            <p className="md:text-xl xs2:text-base text-sm font-mono xs:p-0 text-gray-400">
               OPHIZE offers a spectrum of services to elevate your business.
               Explore our <br /> offerings below and find tailored support for
               every aspect of your enterprise.

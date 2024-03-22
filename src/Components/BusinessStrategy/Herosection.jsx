@@ -10,7 +10,7 @@ const HerosectionStrgy = () => {
           {/* container for the hero image and text  */}
           <div className="justify-center flex flex-col  xs:items-center  ">
             {/* text container */}
-            <div className="flex flex-col text-white xs2:items-start xs2:text-start text-center items-center gap-5 z-0">
+            <div className="flex flex-col text-white xs2:items-start xs2:text-start text-center items-center gap-5 z-0 ">
               {/* heading of the section */}
               <h1 className="md:text-6xl xs2:text-3xl text-xl font-extrabold tracking-wide uppercase">
                 business <br /> strategic consultancy
