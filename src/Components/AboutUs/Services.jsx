@@ -6,12 +6,12 @@ const ServicesAbout = () => {
   return (
     <>
       <div className="flex justify-center">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 m-7 2xl:w-[1440px] w-auto">
-          {/* Section: Benefit of Service */}
-          <div className="sm:p-6 pt-0 pb-0 m-7">
-            {/* Left side with benefits information */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8  2xl:w-[1440px] w-auto my-14 mx-12">
+          
+          <div className="">
+           
             <div>
-              {/* Title and introductory text */}
+              
               <h1 className="md:text-4xl xs3:text-2xl text-xl font-bold">
                 Benefits of Service
               </h1>
@@ -24,7 +24,7 @@ const ServicesAbout = () => {
               </p>
             </div>
 
-            {/* List of benefits */}
+           
             <div className="mt-5">
               <ul className="grid grid-cols-1">
                 <li className="font-medium items-start flex pb-2 2xl:text-2xl 4xl:text-4xl sm:text-xl md:text-base xs:text-">
@@ -63,14 +63,13 @@ const ServicesAbout = () => {
             </div>
           </div>
 
-          {/* Right side with image */}
-          <div className="mx-8 text-center mt-7">
+         
+          <div className="mx-8 text-center ">
             <img src={serviceImage1} className="w-full" alt="Service Section" />
           </div>
 
-          {/* Section: How It Works */}
-          {/* Left side with image */}
-          <div className="mx-8 flex justify-center items-center text-center">
+          
+          <div className="mx-8 flex justify-center items-center text-center 2xl:pr-8">
             <img
               src={serviceImage2}
               className="w-full pt-7"
@@ -78,13 +77,13 @@ const ServicesAbout = () => {
             />
           </div>
 
-          {/* Right side with information about how it works */}
+         
           <div className="">
-            <div className="p-5 pl-0 pt-0 xl:pt-5">
+            <div className="mt-14">
               <h1 className="md:text-4xl xs3:text-2xl text-xl font-bold">
                 How It Works
               </h1>
-              <p className="text-slate-500 md:text-lg xs3:text-base text-base">
+              <p className="text-slate-500 md:text-lg xs3:text-base text-lg mt-4">
                 We take a structured approach to manage your business processes:
               </p>
             </div>

@@ -52,12 +52,12 @@ const Solutions = () => {
 
   return (
     <>
-      {/* main container div */}
+     
 
       <div className="2xl:w-[1440px] w-auto   mx-auto my-14 ">
-        {/* inner container */}
+       
         <div className="flex flex-col gap-7 items-center mx-9 pt-4 pb-4 ">
-          {/* title section */}
+         
           <div className="flex flex-col text-center gap-5 md:w-[750px] w-auto">
             <h1 className="text-[#353535] md:text-4xl xs3:text-2xl text-xl tracking-wide font-extrabold">
               Comprehensive Business Solutions
@@ -66,8 +66,8 @@ const Solutions = () => {
               Optimizing Performance Across All Facts of Your Enterprise
             </h1>
           </div>
-          {/* container for displaying solution */}
-          <div className="flex flex-wrap gap-4 md:flex-row justify-center items-center   w-full">
+         
+          <div className="flex flex-wrap gap-12 md:flex-row justify-center items-center   w-full">
             {solution.map((sol) => (
               <div
                 key={sol.id}
