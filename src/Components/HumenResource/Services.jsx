@@ -4,13 +4,13 @@ const ServicesHr = () => {
   return (
     <>
       {/* main container */}
-      <div className="flex justify-center items-center md:h-screen">
+      <div className="flex justify-center items-center h-screen">
         {/* inner container for text and image */}
-        <div className="flex md:flex-row flex-col justify-center items-center gap-5 2xl:w-[1440px] w-auto mt-7 mx-11 mb-6">
+        <div className="flex md:flex-row flex-col justify-center items-center gap-5 2xl:w-[1440px] w-auto mt-7 mx-16 mb-6">
           {/* text content container */}
-          <div className=" flex flex-col ">
+          <div className=" flex flex-col">
             {/* title for the content */}
-            <h1 className="xl:text-5xl md:text-4xl xs:text-xl xs3:text-3xl xs2:text-xl font-bold tracking-wide  text-start gap-5 xs:mt-5">
+            <h1 className="xl:text-5xl md:text-4xl xs:text-xl xs3:text-3xl xs2:text-xl font-bold tracking-wide  text-start gap-5 ">
               Compreshnive Human Resources Services
             </h1>
             {/* Description paragraph */}
@@ -21,7 +21,7 @@ const ServicesHr = () => {
               seamless and stratgic approach to talent management.
             </p>
           </div>
-          <div className="  justify-center">
+          <div className="  justify-center ">
             <img src={sol} alt="Customized Financial Solutions" className="" />
           </div>
         </div>

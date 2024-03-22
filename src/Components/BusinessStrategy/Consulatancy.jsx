@@ -5,7 +5,7 @@ const Consultancy = () => {
   return (
     <>
       {/* main parent container for the content */}
-      <div className="w-full justify-center flex flex-col items-center  gap-14  py-14">
+      <div className="w-full justify-center flex flex-col items-center gap-14 py-14">
         {/* first child container */}
         <div className="flex md:flex-row flex-col md:gap-14 xs:flex-col mx-10 xs:gap-5">
           {/* container for the text  */}
@@ -27,7 +27,7 @@ const Consultancy = () => {
               feel free to ask!
             </p>
           </div>
-          <div className="w-auto mt-5">
+          <div className="w-auto mt-5 flex items-center justify-center">
             <img src={bg} alt="Business consulatancy solution" />
           </div>
         </div>
@@ -47,7 +47,7 @@ const Consultancy = () => {
               advantage for robust, future-ready enterprise growth.
             </p>
           </div>
-          <div className="mt-5">
+          <div className="mt-5 flex items-center justify-center">
             <img src={bg2} alt="Strategic business advisory" />
           </div>
         </div>

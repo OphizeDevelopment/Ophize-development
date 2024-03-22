@@ -5,17 +5,17 @@ const HeroAbout = () => {
     <>
       <div className="flex justify-center">
         {/* hero section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 justify-center m-8 mt-4 2xl:w-[1440px] w-auto mx-24">
-          <div className=" mt-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 justify-center my-14 2xl:w-[1440px] w-auto mx-10">
+          <div className=" ">
             {/* Title and introductory text */}
             <div className=" flex flex-wrap gap-5">
               <p className="  sm:text-lg md:text-base xs:text-lg text-gray-300">
                 ABOUT US
               </p>
-              <h1 className="text-xl sm:text-4xl w-full md:text-4xl lg:text-4xl xl:text-5xl  font-bold tracking-wide uppercase text-white">
+              <h1 className="md:text-6xl xs2:text-3xl text-xl font-bold tracking-wide uppercase text-white text-center">
                 Empowering Your Business with Seamless Outsourcing Solutions
               </h1>
-              <p className="text-white mb-5 md:text-2xl xs2:text-base text-sm">
+              <p className="text-white mb-5 md:text-3xl xs2:text-base text-sm text-center">
                 At Ophize, we specialize in providing comprehensive BPO services
                 that streamline your operations and enhance efficiency. Our
                 multiple departments are dedicated to offering tailored
@@ -26,8 +26,8 @@ const HeroAbout = () => {
               </button>
             </div>
           </div>
-          <div className=" pl-1  font-medium 2xl:text-2xl 4xl:text-3xl text-[18px] sm:text-xl md:text-base xs:text-lg  ">
-            <div className="items-baseline  mt-5 ">
+          <div className=" pl-1  ">
+            <div className=" mt-5 ">
               <img src={heroaboutimage} className="items-baseline" />
             </div>
           </div>

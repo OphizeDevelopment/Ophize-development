@@ -22,7 +22,7 @@ const Excellence = () => {
             </div>
           </div>
           {/* container for the paragraph */}
-          <div className="mx-4">
+          <div className="mx-4 mt-5">
             <p className="text-black md:text-base text-xs font-medium tracking-wide text-center xs:line-clamp-6 md:line-clamp-none">
               Explore the breadth of our Administration Services designed to
               enhance operational efficiency across your enterprise. From the

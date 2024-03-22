@@ -44,7 +44,7 @@ const Solutions = () => {
     },
     {
       id: 8,
-      title: "industry specific consulting",
+      title: "Industry Specific Consulting",
       description:
         "Leveraging deep sector knowledge, we provide bespoke consultancy, addressing industry challenges and enhancing your firm's market position.",
     },
@@ -54,7 +54,7 @@ const Solutions = () => {
     <>
       {/* main container div */}
 
-      <div className="2xl:w-[1440px] w-auto mx-auto py-14 ">
+      <div className="2xl:w-[1440px] w-auto   mx-auto my-14 ">
         {/* inner container */}
         <div className="flex flex-col gap-7 items-center mx-9 pt-4 pb-4 ">
           {/* title section */}
