@@ -1,13 +1,12 @@
 import businessHero from "../../assets/businessHero.png";
 
-
 const herosection = () => {
   return (
     <>
       {/* container div for the hero section */}
-      <div className="w-full flex justify-center  md:px-20   p-9">
+      <div className="w-full 2xl:w-[1440px] mx-auto flex justify-center ">
         {/* inner container with flex layout,padding and width adjustment */}
-        <div className=" flex flex-col text-white  md:flex-row  justify-center items-center gap-5 ">
+        <div className=" flex flex-col text-white  md:flex-row  justify-center items-center gap-5 xs:text-center md:text-start m-6">
           {/* textual content container */}
           <div className="flex flex-col  justify-center md:items-start items-center  gap-5 lg:w-1/2">
             {/* main heading for the hero section */}
@@ -16,9 +15,8 @@ const herosection = () => {
             </h1>
             {/* Subheading */}
             <p className="md:text-3xl xs2:text-base text-sm">
-              Streamline regulatory compilance with our tailored
-              solutions that protect your business intergrity and
-              continuity
+              Streamline regulatory compilance with our tailored solutions that
+              protect your business intergrity and continuity
             </p>
             {/* request button */}
             <button

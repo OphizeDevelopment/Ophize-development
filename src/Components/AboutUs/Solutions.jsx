@@ -5,8 +5,8 @@ import globalreachImage from "../../assets/globalreach.png";
 const Solutions = () => {
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 justify-center p-3 mt-4 pb-0 2xl:w-[1440px] w-auto mx-auto">
-        <div className="p-8 pt-0 pb-0 mt-7">
+      <div className="grid grid-cols-1 md:grid-cols-2 justify-center mt-4 pb-0 2xl:w-[1440px] w-auto mx-auto">
+        <div className="mx-9">
           {/* Title and introductory text */}
           <div className="p-5 pt-2">
             <p className="text-[#3B50BA] font-semibold sm:text-xl md:text-base xs:text-lg">
@@ -17,9 +17,9 @@ const Solutions = () => {
             </h1>
           </div>
         </div>
-        <div className="p-8 pt-0 pb-0 pl-1 text-start font-medium 2xl:text-2xl 4xl:text-3xl text-[18px] sm:text-xl md:text-base xs:text-lg">
-          <div className="p-11 pt-0">
-            <p className="pt-3 mt-12 ">
+        <div className="mx-7 mt-6 mb-6 pl-1 text-start font-medium 2xl:text-2xl 4xl:text-3xl text-[18px] sm:text-xl md:text-base xs:text-lg">
+          <div className="mx-9">
+            <p className="">
               Our BPO services are not one-size-fits-all.We work with you
             </p>
             <p>to understand your unique challenges and create</p>
@@ -29,12 +29,12 @@ const Solutions = () => {
       </div>
 
       {/* efficiency, expertise, global reach section */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-8 justify-center 2xl:w-[1440px] w-auto mx-auto mb-7">
-        <div className="p-8 pt-0 pb-0">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-7 p-8 justify-center 2xl:w-[1440px] w-auto mx-auto mb-7">
+        <div className="mx-9">
           <div className="text-start">
             <img src={streamlinedImage} className="w-20" />
           </div>
-          <h1 className="text-2xl font-bold 2xl:text-2xl 4xl:text-5xl ">
+          <h1 className="text-2xl font-bold 2xl:text-2xl 4xl:text-5xl mt-2 ">
             Streamlined Efficiency
           </h1>
           <p className="text-[14px] pt-3 2xl:text-xl 4xl:text-2xl sm:text-xl md:text-base xs:text-lg">
@@ -43,11 +43,11 @@ const Solutions = () => {
             improved process efficiency and productivity.
           </p>
         </div>
-        <div className="p-8 pt-0 pb-0">
+        <div className="mx-9">
           <div>
             <img src={expertiseImage} className="w-20" />
           </div>
-          <h1 className="text-2xl font-bold 2xl:text-2xl 4xl:text-5xl">
+          <h1 className="text-2xl font-bold 2xl:text-2xl 4xl:text-5xl mt-2">
             Expertise at Your Fingertips
           </h1>
           <p className="text-[14px] pt-3 2xl:text-xl 4xl:text-2xl sm:text-xl md:text-base xs:text-lg">
@@ -56,11 +56,11 @@ const Solutions = () => {
             is managed with the utmost proficiency.
           </p>
         </div>
-        <div className="p-8 pt-0">
+        <div className="mx-9">
           <div>
             <img src={globalreachImage} className="w-20" />
           </div>
-          <h1 className="text-2xl font-bold 2xl:text-2xl 4xl:text-5xl">
+          <h1 className="text-2xl font-bold 2xl:text-2xl 4xl:text-5xl mt-2">
             Global Reach, Local Expertise
           </h1>
           <p className="text-[14px] pt-3 2xl:text-xl 4xl:text-2xl sm:text-xl md:text-base xs:text-lg">
