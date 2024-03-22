@@ -4,7 +4,7 @@ const Bposervice =()=>{
     return(<>
     <div className="flex justify-center">
     <div className="grid grid-cols-1 md:grid-cols-2 justify-center p-3 mt-4 2xl:mx-36 2xl:w-[1440px] w-auto">
-        <div className="p-8 pt-0 pb-0 m-7  ">
+        <div className="  ">
           {/* Title and introductory text */}
           <div className="p-5 pt-2">
             <h1 className="text-2xl pt-2  font-bold 2xl:text-4xl 4xl:text-5xl">
@@ -25,7 +25,7 @@ const Bposervice =()=>{
           </div>
         </div>
         <div className="p-8 pl-1 text-start font-medium 2xl:text-xl 4xl:text-4xl md:h-fit">
-          <div className="p-9 pt-2 m-7 ">
+          <div className="mx-4 ">
             {/* image section */}
             <img src={whyusimage} className="w-full" alt="whyusimage"/>
           </div>

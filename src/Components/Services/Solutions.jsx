@@ -84,33 +84,31 @@ const SolutionsService = () => {
   ];
   return (
     <>
-      <div className="flex justify-center">
-        {/* main div for the container */}
-        <div className="flex flex-wrap p-10 items-center justify-center 2xl:w-[1440px] w-auto">
-          {/* container for displaying the solutions */}
-          <div className="grid lg:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-9 items-center justify-center w-full ">
-            {/* mapping the solutions */}
-            {solutions.map((solution, index) => (
-              <div
-                key={index}
-                className=" w-full xl:w-[25rem] flex flex-col items-start justify-center md:gap-5 p-10 md:h-96  sm:h-70  shadow-md border border-blue-300 gap-6"
+      {/* main div for the container */}
+      <div className="flex flex-wrap p-10 items-center justify-center 2xl:w-[1440px] w-auto mx-auto">
+        {/* container for displaying the solutions */}
+        <div className="grid lg:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1  justify-items-center gap-7 mx-9 w-full ">
+          {/* mapping the solutions */}
+          {solutions.map((solution, index) => (
+            <div
+              key={index}
+              className=" w-full xl:w-[25rem] flex flex-col items-start justify-center gap-7  md:h-96  sm:h-70  shadow-md border border-blue-300 mt-5 p-5 "
+            >
+              <img src={solution.imgSrc} alt="img" className="h-28" />
+              <h1 className="xs3:text-lg font-bold  capitalize">
+                {solution.title}
+              </h1>
+              <p className="md:text-base text-xs capitalize text-zinc-600">
+                {solution.description}
+              </p>
+              <a
+                href={solution.url}
+                className="text-lg sm:text-sm justify-end text-blue-700 capitalize "
               >
-                <img src={solution.imgSrc} alt="img" className="h-28" />
-                <h1 className="text-2xl sm:text-lg font-semibold capitalize">
-                  {solution.title}
-                </h1>
-                <p className="text-lg sm:text-base capitalize text-zinc-600">
-                  {solution.description}
-                </p>
-                <a
-                  href={solution.url}
-                  className="text-lg sm:text-sm justify-end text-blue-700 capitalize "
-                >
-                  explore more
-                </a>
-              </div>
-            ))}
-          </div>
+                explore more
+              </a>
+            </div>
+          ))}
         </div>
       </div>
     </>
