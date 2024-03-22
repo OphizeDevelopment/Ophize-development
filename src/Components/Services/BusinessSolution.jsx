@@ -38,7 +38,7 @@ const BusinessSolution = () => {
               />
               {/* container for the text */}
               <div className="absolute inset-0 flex justify-center items-center p-10 text-white bg-[#666C89E0] xs:p-5 md:p-4">
-                <p className="xs:text-base md:text-xl font-medium">
+                <p className="text-base xs:text-sm md:text-lg xl:text-xl font-medium text-center">
                   Our approach ensures that every line of code is crafted for
                   peak performance and efficiency. We focus on delivering
                   solutions that not only meet but exceed industry benchmarks

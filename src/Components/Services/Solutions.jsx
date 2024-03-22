@@ -92,7 +92,7 @@ const SolutionsService = () => {
           {solutions.map((solution, index) => (
             <div
               key={index}
-              className=" w-full xl:w-[25rem] flex flex-col items-start justify-center gap-7  md:h-96  sm:h-70  shadow-md border border-blue-300 mt-5 p-5 "
+              className=" w-full xl:w-[25rem] flex flex-col items-start justify-center gap-7  h-auto shadow-md border border-blue-300 mt-5 p-5 "
             >
               <img src={solution.imgSrc} alt="img" className="h-28" />
               <h1 className="xs3:text-lg font-bold  capitalize">

@@ -7,7 +7,7 @@ const Phonesection = () => {
       {/* main flex section for phone and message */}
       <div className="flex p-6 gap-4 justify-center flex-wrap 2xl:w-[1440px] w-auto mx-auto">
         {/* phone section flex */}
-        <div className="flex items-center gap-3 ">
+        <div className="flex items-center gap-3 w-auto">
           <div>
             <img src={telephoneicon} />
           </div>
@@ -17,7 +17,7 @@ const Phonesection = () => {
           </div>
         </div>
         {/* message section flex */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 ">
           <div>
             <img src={messageicon} />
           </div>
