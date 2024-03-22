@@ -1,4 +1,3 @@
-// Importing image assets for service icons
 import f1 from "../../assets/f1.png";
 import f2 from "../../assets/f2.png";
 import f3 from "../../assets/f3.png";
@@ -6,7 +5,6 @@ import f4 from "../../assets/f4.png";
 import f5 from "../../assets/f5.png";
 
 const services = () => {
-  //Array of service objects, each containing an id, image source, title, and description
   const services = [
     {
       id: 1,
@@ -49,10 +47,9 @@ const services = () => {
 
   return (
     <>
-      <div className="w-full xs3:px-20 px-10 py-20">
-        {/* Inner container for the services section with vertical spacing */}
-        <div className="flex flex-col gap-10">
-          {/* Title and subtitle for the section */}
+      <div className="w-full xs3:px-20 px-10 py-10 md:py-20"> 
+        <div className="flex flex-col gap-5 lg:gap-10">
+
           <div className=" text-center flex flex-col gap-4">
             <h1 className="text-[#353535] md:text-4xl xs3:text-2xl text-xl tracking-wide font-bold">
               Better Strategy With <br />
@@ -64,7 +61,6 @@ const services = () => {
             </p>
           </div>
 
-          {/* Container for displaying the first set of service items */}
           <div className="flex flex-wrap gap-10 justify-center md:mt-10">
             {services.map((service) => (
               <div
@@ -80,7 +76,6 @@ const services = () => {
             ))}
           </div>
 
-          {/* Container for displaying the second set of service items */}
           <div className="flex flex-wrap gap-10 justify-center">
             {services1.map((service) => (
               <div

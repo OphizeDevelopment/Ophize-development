@@ -58,6 +58,7 @@ const Solutions = () => {
        
         <div className="flex flex-col gap-7 items-center mx-9 pt-4 pb-4 ">
          
+
           <div className="flex flex-col text-center gap-5 md:w-[750px] w-auto">
             <h1 className="text-[#353535] md:text-4xl xs3:text-2xl text-xl tracking-wide font-extrabold">
               Comprehensive Business Solutions
@@ -68,10 +69,11 @@ const Solutions = () => {
           </div>
          
           <div className="flex flex-wrap gap-12 md:flex-row justify-center items-center   w-full">
+
             {solution.map((sol) => (
               <div
                 key={sol.id}
-                className="xs3:flex items-start w-[35rem] xs3:gap-8 gap-10 mt-5 md:px-5 md:py-7 "
+                className="xs3:flex items-start w-[35rem] xs3:gap-8 gap-10 mt-5 md:px-5 md:py-2 3xl:py-7 2xl:py-5 "
               >
                 <div>
                   <h1 className="text-violet-700 md:text-2xl text-xl font-bold border-b-2 border-black mb-5">

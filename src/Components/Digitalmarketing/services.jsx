@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-// Importing image assets for service icons
 import digi1 from "../../assets/digi1.png";
 import digi2 from "../../assets/digi2.png";
 import digi3 from "../../assets/digi3.png";
@@ -8,7 +7,6 @@ import digi4 from "../../assets/digi4.png";
 const ServiceCard = ({ title, description, icon }) => {
   return (
     <div className="flex flex-col md:flex-row md:text-left md:items-start">
-      {/* Inner container for the card's content */}
       <div className="flex flex-col gap-3 mb-5">
         <img src={icon} alt={title} className="w-10 h-10" />
         <h2 className="md:text-xl font-semibold capitalize">{title}</h2>
@@ -23,11 +21,8 @@ const ServiceCard = ({ title, description, icon }) => {
 const Services = () => {
   return (
     <>
-      {/* Main container with flex layout, center alignment, and padding */}
       <div className="w-full flex justify-center items-center px-10 py-10 md:mt-20 mt-8">
-        {/*  Inner container with flexible layout and responsive width */}
         <div className="2xl:w-[1440px] w-auto flex md:flex-row flex-col md:gap-44 gap-10 justify-center ">
-          {/* Text content container with width adjustment and vertical spacing */}
           <div className="xl:w-[30%] flex flex-col gap-4">
             <h1 className="text-[#305197] xl:text-4xl text-2xl font-semibold tracking-wide">
               Your Partners in Digital Marketing Excellence
@@ -39,9 +34,7 @@ const Services = () => {
             </p>
             <h1 className="text-[#305197] text-sm cursor-pointer">See More</h1>
           </div>
-          {/* Grid container for ServiceCard components */}
           <div className="grid grid-cols-2 gap-10">
-            {/* Rendering multiple ServiceCard components with different props */}
             <ServiceCard
               title="content marketing"
               description="Crafting bespoke content to captivate and educate your audience"

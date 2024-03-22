@@ -9,6 +9,7 @@ const HerosectionService = () => {
           
           <div className="w-fit flex flex-col items-center justify-center mx-10  gap-5 md:my-16 my-7">
            
+
             <h1 className="md:text-5xl xs2:text-3xl text-xl font-bold tracking-wide text-gray-300 uppercase">
               discover our expert services
             </h1>
@@ -18,7 +19,7 @@ const HerosectionService = () => {
               every aspect of your enterprise.
             </p>
           </div>
-         
+
           <div
             className=" flex bg-cover bg-center w-full h-full justify-center content-center p-11 items-start  "
             style={{
@@ -27,6 +28,7 @@ const HerosectionService = () => {
           >
             
             <div className="flex flex-col justify-center items-start text-white mx-auto  gap-5 xs:max-w-none md:w-[745px] w-auto">
+
               <button className="capitalize bg-[#305197]   px-4 py-2 rounded-3xl text-white sm:text-base text-sm">
                 Best
               </button>

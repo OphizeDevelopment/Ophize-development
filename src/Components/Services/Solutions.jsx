@@ -89,6 +89,7 @@ const SolutionsService = () => {
        
         <div className="grid lg:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1  justify-items-center gap-7 mx-9 w-full ">
          
+
           {solutions.map((solution, index) => (
             <div
               key={index}

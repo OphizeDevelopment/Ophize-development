@@ -4,10 +4,12 @@ const HeroAbout = () => {
   return (
     <>
       <div className="flex justify-center">
+
         
         <div className="grid grid-cols-1 md:grid-cols-2 justify-center my-14 2xl:w-[1440px] w-auto mx-14">
           <div className=" ">
             
+
             <div className=" flex flex-wrap gap-5">
               <p className="  sm:text-lg md:text-base xs:text-lg text-gray-300">
                 ABOUT US

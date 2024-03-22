@@ -1,15 +1,13 @@
+/* eslint-disable react/no-unescaped-entities */
 import excellenceImg from "../../assets/administrationExcellence.png";
 
 const Excellence = () => {
   return (
     <>
       <div className="flex justify-center items-center">
-        {/* main container for the page */}
         <div className="flex flex-col justify-center items-center   m-7 2xl:w-[1140px]">
-          {/* container for the text and image */}
           <div className="flex flex-col md:flex-row justify-center items-center gap-9  w-full ">
             <img src={excellenceImg} alt="excellence image" />
-            {/* container for the text and paragraph */}
             <div className="m-5">
               <h1 className="uppercase font-bold tracking-wide xl:text-4xl lg:text-3xl sm:text-2xl  w-full xs:text-xl md:text-start text-center ">
                 Mastering Administrative <br /> Excellence
@@ -21,7 +19,6 @@ const Excellence = () => {
               </p>
             </div>
           </div>
-          {/* container for the paragraph */}
           <div className="mx-4 mt-5">
             <p className="text-black md:text-base text-xs font-medium tracking-wide text-center xs:line-clamp-6 md:line-clamp-none">
               Explore the breadth of our Administration Services designed to

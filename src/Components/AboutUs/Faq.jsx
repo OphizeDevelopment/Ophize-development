@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import patternimage from "../../assets/Pattern.png";
 import collapseiconright from "../../assets/collapseiconright.png";
 import collapseicondown from "../../assets/collapseicondown.png";
@@ -9,7 +10,7 @@ const Faq = () => {
   
   const [isCollapsed, setIsCollapsed] = useState([false, false, false, false]);
 
-  
+
   const handleCollapse = (index) => {
     const newCollapsedState = [...isCollapsed];
     newCollapsedState[index] = !newCollapsedState[index];
@@ -21,7 +22,7 @@ const Faq = () => {
       <div className="flex justify-center mt-10 mb-6 bg-[#EBEFFF]">
         <div className="grid grid-cols-1 md:grid-cols-2 justify-center p-3 mt-4 bg-[#EBEFFF] m-7 2xl:w-[1440px] w-auto">
           <div className="mx-9">
-            
+
             <div>
               <p className="text-lg flex items-center 2xl:text-2xl 4xl:text-2xl">
                 <img src={patternimage} className="mr-2 " />
@@ -30,7 +31,7 @@ const Faq = () => {
               <h1 className="text-2xl pt-2  font-bold 2xl:text-4xl 4xl:text-5xl">
                 Frequently Asked Questions
               </h1>
-              
+
               <div className="mt-5">
                 <div className="flex justify-between items-center">
                   <button
@@ -55,7 +56,7 @@ const Faq = () => {
                   </div>
                 )}
               </div>
-             
+
               <div className="mt-8">
                 <div className="flex justify-between items-center">
                   <button
@@ -80,7 +81,7 @@ const Faq = () => {
                   </div>
                 )}
               </div>
-              
+
               <div className="mt-8">
                 <div className="flex justify-between items-center">
                   <button
@@ -106,7 +107,7 @@ const Faq = () => {
                   </div>
                 )}
               </div>
-             
+
               <div className="mt-8" onClick={() => handleCollapse(3)}>
                 <div className="flex justify-between items-center">
                   <button className="text-lg text-start 2xl:text-2xl 4xl:text-4xl sm:text-xl xs:text-lg md:text-lg p-2">

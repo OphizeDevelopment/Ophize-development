@@ -10,6 +10,7 @@ const Solutions = () => {
          
           <div className="p-5 ">
             <p className="text-[#3B50BA] font-semibold sm:text-2xl md:text-lg xs:text-lg">
+
               Benefits
             </p>
             <h1 className="md:text-[44px]  font-medium  2xl:text-4xl 4xl:text-5xl md:text-start mt-3 xs:text-[30px]">
@@ -28,7 +29,7 @@ const Solutions = () => {
         </div>
       </div>
 
-     
+
       <div className="grid grid-cols-1 md:grid-cols-3 gap-7 p-8 justify-center 2xl:w-[1440px] w-auto mx-auto mb-7">
         <div className="mx-9">
           <div className="text-start">

@@ -34,6 +34,7 @@ const Bposervice = () => {
           <div className="  flex justify-center items-center ">
             
             <img src={whyusimage} className="w-auto" alt="whyusimage" />
+
           </div>
         </div>
       </div>

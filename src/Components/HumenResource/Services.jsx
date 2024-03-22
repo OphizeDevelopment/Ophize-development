@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import sol from "../../assets/hrsolution.png";
 
 const ServicesHr = () => {
@@ -14,6 +15,7 @@ const ServicesHr = () => {
               Compreshnive Human Resources Services
             </h1>
             
+
             <p className="text-start md:text-2xl xs3:text-base  xs3:text-center md:text-start  font-medium tracking-wide mt-5 xs:text-base ">
               Delve into the depth of our Human Resources expertise with a suite
               of services designed to elevate your company's HR fucntions. our

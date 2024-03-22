@@ -1,4 +1,3 @@
-// Importing images for service icons
 import i1 from "../../assets/it1.png";
 import i2 from "../../assets/it2.png";
 import i3 from "../../assets/it3.png";
@@ -6,7 +5,6 @@ import i4 from "../../assets/it4.png";
 import i5 from "../../assets/it5.png";
 import i6 from "../../assets/it6.png";
 
-// services component definition
 const services = () => {
   const serviceData = [
     {
@@ -56,16 +54,12 @@ const services = () => {
   return (
     <>
       <div>
-         {/* Main container for the services section with flex layout, padding, and spacing */}
         <div className="flex flex-col justify-center items-center gap-10 px-10 md:py-36 py-16">
-           {/* Title for the services section */}
           <h1 className="md:text-4xl sm:text-3xl text-lg font-bold sm:w-[40rem] text-center">
             Manage your entire community in a single system
           </h1>
 
-           {/* Container for displaying each service item */}
           <div className="flex gap-10 flex-wrap 3xl:w-[1800px] w-full justify-center items-center">
-             {/* Mapping each service to a card layout */}
             {serviceData.map((service) => (
               <div
                 key={service.id}

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 
 
 const TechnologiesServices = () => {
@@ -6,7 +7,6 @@ const TechnologiesServices = () => {
     <div className=" bg-[#EBEFFF]">
       <div className="grid grid-cols-1 md:grid-cols-2 justify-center  bg-[#EBEFFF] my-14 2xl:w-[1440px] w-full mx-auto">
         <div className="mx-9 ">
-         
           <div className="">
             <h1 className="md:text-4xl xs3:text-2xl text-xl font-bold mt-2">
               Streamlining Go-to-Market Strategies with Advanced Technologies
@@ -35,6 +35,7 @@ const TechnologiesServices = () => {
 
      
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 my-14 pb-5  bg-[#EBEFFF] sm:items-center m-7 2xl:w-[1440px] w-auto mx-auto -mt-14 items-center">
+
         <div className="mx-9">
           <h1 className="text-2xl font-medium 2xl:text-2xl 4xl:text-5xl">
             200+ Experts

@@ -1,5 +1,5 @@
 import { useLocation } from "react-router-dom";
-// Importing various components for different sections
+
 import Navbar from "./navbar";
 import Herosection from "./Homepage/herosection";
 import Digiherosection from "./Digitalmarketing/herosection";
@@ -11,19 +11,15 @@ import ITherosetion from "./ITSecurity/herosetion";
 import HeroSectionHR from "./HumenResource/HeroSection";
 import HerosectionService from "./services/herosection";
 
-// Importing the background image for the hero section
 import bgimg from "../assets/service-bg.png";
 import HeroAbout from "./AboutUs/Hero";
 import Hero from "./Administration/Hero";
 import HerosectionContact from "./ContactUs/Herosection";
 import HerosectionStrgy from "./BusinessStrategy/Herosection";
 
-// HeroSection component definition
 const HeroSection = () => {
-  // Using the useLocation hook to access the current URL path
   const location = useLocation();
 
-  // Function to determine which hero section to display based on the current path
   const getComponentForRoute = (pathname) => {
     switch (pathname) {
       case "/":
@@ -42,12 +38,12 @@ const HeroSection = () => {
         return <ITherosetion />;
       case "/services":
         return <HerosectionService />;
-      case "/aboutus"  :
+      case "/aboutus":
         return <HeroAbout />
       case "/administration":
         return <Hero />
       case "/contactus":
-        return <HerosectionContact />  
+        return <HerosectionContact />
       case "/businessstrategic":
         return <HerosectionStrgy />
       case "/humanresource":
@@ -57,23 +53,18 @@ const HeroSection = () => {
     }
   };
 
-  // Render the HeroSection component
   return (
-    // Div container with background image styling
     <div
       style={{
-        backgroundImage: `url(${bgimg})`, // Background image from imported asset
-        backgroundRepeat: "no-repeat", // Background repeat style
-        backgroundPosition: "center", // Background position style
-        backgroundSize: "cover", // Background size style to cover the entire area
+        backgroundImage: `url(${bgimg})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+        backgroundSize: "cover",
         width: "100%",
-        height: "100%",
       }}
     >
-      {/* Navbar component */}
       <Navbar />
       {getComponentForRoute(location.pathname)}{" "}
-      {/* Displaying the hero section based on the current route */}
     </div>
   );
 };
