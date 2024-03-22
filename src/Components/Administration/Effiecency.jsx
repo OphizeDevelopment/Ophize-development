@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import adminisupport from "../../assets/adminsupport.png";
 import calander from "../../assets/calander.png";
 import cooperate from "../../assets/coperate.png";

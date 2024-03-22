@@ -1,5 +1,5 @@
-import businessSol from "../../assets/businessSol.png";
-import businessSolBg from "../../assets/businessSolBg.png";
+/* eslint-disable react/no-unescaped-entities */
+import businessSol from "../../assets/businessSol.png"; 
 
 const BusinessSolution = () => {
   return (

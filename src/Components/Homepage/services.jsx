@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import img from "../../assets/service-img.png";
 import icon from "../../assets/service-icon.png";
 import { Link } from "react-router-dom";

@@ -1,17 +1,15 @@
-// Importing the image asset for the side image
+ 
 import sideimg from "../../assets/finance-sideimg.png";
 
 const solutions = () => {
   return (
     <>
-      <div className="flex justify-center items-center xs3:px-10 md:py-10 pb-5 md:pb-20">
-        {/* Inner container with flexible layout for the image and text content */}
+      <div className="flex justify-center items-center xs3:px-10 md:py-10 pb-5 md:pb-20"> 
 
         <div className="flex md:flex-row flex-col justify-center items-center gap-10 mx-11">
           <div>
             <img src={sideimg} alt="Customized Financial Solutions" />
-          </div>
-          {/* Text content container with flexible width and vertical spacing */}
+          </div> 
           <div className="lg:w-[50rem]  flex flex-col gap-4">
             
             <h1 className="xl:text-4xl xs3:text-3xl xs2:text-xl font-bold tracking-wide xs3:text-start text-center">

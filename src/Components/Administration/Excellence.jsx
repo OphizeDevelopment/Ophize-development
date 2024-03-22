@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import excellenceImg from "../../assets/administrationExcellence.png";
 
 const Excellence = () => {
