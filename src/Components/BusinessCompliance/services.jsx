@@ -43,9 +43,9 @@ const services = () => {
   ];
   return (
     <>
-      <div className=" xs:px-8 xs:py-8 flex justify-center ">
-        <div className="flex flex-col">
-          <div className="text-center flex flex-wrap flex-col gap-4 justify-center">
+      <div className="flex flex-wrap justify-center ">
+        <div className="flex flex-wrap flex-col 2xl:w-[1480px] w-auto my-14">
+          <div className="text-center flex flex-wrap flex-col gap-4 justify-center py-5">
             <h1 className="md:text-4xl text-xl lg:text-5xl font-bold text-center text-gray-800  tracking-wide">
               Services we offer
             </h1>
@@ -54,18 +54,18 @@ const services = () => {
               Who is Nextcent suitable for?
             </h1>
           </div>
-          <div className="flex flex-wrap xs:gap-0 md:gap-10 justify-center items-center md:mt-10 2xl:w-[1480px] w-auto xs:w-[230px] md:w-[780px] ">
+          <div className="flex flex-wrap  justify-center items-center md:mt-10 gap-10 ">
             {services.map((service, index) => (
               <div
                 key={index}
-                className="xs3:flex items-start w-[45rem] xs3:gap-8 gap-10 xs3:px-10 px-3 py-10 "
+                className="xs3:flex flex flex-wrap items-start md:w-[35rem] w-auto xs3:gap-8 gap-7 xs3:px-10 px-7 py-10 "
               >
                 <div className="flex flex-wrap gap-10 border-l-4 border-blue-700 pl-5 min-h-40 items-center ">
                   <div className="flex flex-col ">
                     <h1 className="md:text-2xl text-xl sm:text-base font-bold mb-2">
                       {service.title}
                     </h1>
-                    <p className="md:text-xl text-sm font-medium  lg:text-lg">
+                    <p className="md:text-xl text-sm font-medium  lg:text-lg text-justify">
                       {service.description}
                     </p>
                   </div>

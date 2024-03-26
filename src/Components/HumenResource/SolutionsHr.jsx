@@ -88,7 +88,7 @@ const SolutionsHr = () => {
                   <h1 className="text-violet-700 md:text-2xl text-xl font-bold border-b-2 border-black mb-5">
                     {solution.title}
                   </h1>
-                  <p className="text-black font-medium md:text-base text-base">
+                  <p className="text-black font-medium md:text-base text-base text-justify tracking-wider">
                     {solution.description}
                   </p>
                 </div>

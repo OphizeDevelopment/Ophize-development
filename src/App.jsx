@@ -4,27 +4,29 @@ import {
   Routes,
   useLocation,
 } from "react-router-dom";
-import Digitalmarketing from "./Pages/Digitalmarketing";
-import Softwaredevelopment from "./Pages/Softwaredevelopment";
-import Financeherosection from "./Pages/Financeandaccounts";
-import Homepage from "./Pages/Homepage";
-import Logistics from "./Pages/Logistics";
-import Itsecurity from "./Pages/Itsecurity";
-import BusinessCompilance from "./Pages/Businesscompliance";
+import React, { lazy, Suspense } from "react";
+import { useEffect } from "react";
 
-import Pagenotfound from "./Components/pagenotfound";
-import Underconstruction from "./Components/underconstruction";
+import Loader from "./Components/Loader";
 
-import Clients from "./Components/clients";
-import Contactus from "./Components/contactus";
-import Footer from "./Components/footer";
-import { useEffect } from "react"; 
-import Humanresource from "./Pages/HumanResources";
-import Services from "./Pages/services";
-import AboutUs from "./Pages/AboutUs";
-import Administration from "./Pages/Administration";
-import ContactUs from "./Pages/Contactus";
-import BusinessStrategy from "./Pages/BusinessStrategy";
+const Digitalmarketing = lazy(() => import("./Pages/Digitalmarketing"));
+const Softwaredevelopment = lazy(() => import("./Pages/Softwaredevelopment"));
+const Financeherosection = lazy(() => import("./Pages/Financeandaccounts"));
+const Homepage = lazy(() => import("./Pages/Homepage"));
+const Logistics = lazy(() => import("./Pages/Logistics"));
+const Itsecurity = lazy(() => import("./Pages/Itsecurity"));
+const BusinessCompilance = lazy(() => import("./Pages/Businesscompliance"));
+const Pagenotfound = lazy(() => import("./Components/pagenotfound"));
+const Underconstruction = lazy(() => import("./Components/underconstruction"));
+const Clients = lazy(() => import("./Components/clients"));
+const Contactus = lazy(() => import("./Components/contactus"));
+const Footer = lazy(() => import("./Components/footer"));
+const Humanresource = lazy(() => import("./Pages/HumanResources"));
+const Services = lazy(() => import("./Pages/Services"));
+const AboutUs = lazy(() => import("./Pages/AboutUs"));
+const Administration = lazy(() => import("./Pages/Administration"));
+const ContactUs = lazy(() => import("./Pages/Contactus"));
+const BusinessStrategy = lazy(() => import("./Pages/BusinessStrategy"));
 
 const CommonComponents = () => {
   const location = useLocation();
@@ -40,7 +42,6 @@ const CommonComponents = () => {
     "/aboutus",
     "/administration",
     "/businessstrategic",
-    
   ];
 
   if (!definedPaths.includes(location.pathname)) {
@@ -70,30 +71,37 @@ const App = () => {
   return (
     <>
       <Router>
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/digitalmarketing" element={<Digitalmarketing />} />
-          <Route
-            path="/softwaredevelopment"
-            element={<Softwaredevelopment />}
-          />
-          <Route path="/financeandaccounts" element={<Financeherosection />} />
-          <Route path="/logisticsdocumentation" element={<Logistics />} />
-          <Route path="/itandsecurity" element={<Itsecurity />} />
-          <Route path="/underconstruction" element={<Underconstruction />} />
-          <Route path="/businesscompliance" element={<BusinessCompilance />} />
-          <Route path="/humanresource" element={<Humanresource />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/aboutus" element={<AboutUs />} />
-          <Route path="/administration" element={<Administration />} />
-          <Route path="/businessstrategic" element={<BusinessStrategy/>} />
-          <Route path="/contactus" element={<ContactUs />} />
+        <Suspense fallback={<Loader />}>
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+            <Route path="/digitalmarketing" element={<Digitalmarketing />} />
+            <Route
+              path="/softwaredevelopment"
+              element={<Softwaredevelopment />}
+            />
+            <Route
+              path="/financeandaccounts"
+              element={<Financeherosection />}
+            />
+            <Route path="/logisticsdocumentation" element={<Logistics />} />
+            <Route path="/itandsecurity" element={<Itsecurity />} />
+            <Route path="/underconstruction" element={<Underconstruction />} />
+            <Route
+              path="/businesscompliance"
+              element={<BusinessCompilance />}
+            />
+            <Route path="/humanresource" element={<Humanresource />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/aboutus" element={<AboutUs />} />
+            <Route path="/administration" element={<Administration />} />
+            <Route path="/businessstrategic" element={<BusinessStrategy />} />
+            <Route path="/contactus" element={<ContactUs />} />
 
-          <Route path="*" element={<Pagenotfound />} />
-        </Routes>
-        <CommonComponents />
-        <ScrollToTop />
+            <Route path="*" element={<Pagenotfound />} />
+          </Routes>
+          <CommonComponents />
+          <ScrollToTop />
+        </Suspense>
       </Router>
     </>
   );

@@ -28,7 +28,7 @@ const Faq = () => {
                 <img src={patternimage} className="mr-2 " />
                 FAQ
               </p>
-              <h1 className="text-2xl pt-2  font-bold 2xl:text-4xl 4xl:text-5xl">
+              <h1 className="text-xl font-bold 2xl:text-3xl 4xl:text-4xl pt-2  ">
                 Frequently Asked Questions
               </h1>
 

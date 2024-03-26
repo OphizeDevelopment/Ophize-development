@@ -1,6 +1,7 @@
 import HeroSection from "../Components/herosectionbg";
 import Services from "../Components/ITSecurity/services";
 import Process from "../Components/ITSecurity/process";
+import ScrollToTop from "../Components/ScrollToTop";
 
 
 const Itsecurity = () => {
@@ -9,6 +10,7 @@ const Itsecurity = () => {
       <HeroSection />
       <Services />
       <Process />
+      <ScrollToTop />
     </>
   );
 };

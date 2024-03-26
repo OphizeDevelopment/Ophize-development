@@ -1,6 +1,7 @@
 import HeroSection from "../Components/herosectionbg";
 import Performance from "../Components/Digitalmarketing/performance";
 import Services from "../Components/Digitalmarketing/services";
+import ScrollToTop from "../Components/ScrollToTop";
 
 const Digitalmarketing = () => {
   return (
@@ -8,6 +9,7 @@ const Digitalmarketing = () => {
       <HeroSection />
       <Services />
       <Performance />
+      <ScrollToTop />
     </>
   );
 };

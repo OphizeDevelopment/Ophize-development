@@ -1,45 +1,31 @@
-import { useState, useEffect } from "react";
 import hrSol from "../../assets/hrSolBg.png";
 
 const BgsolutionHr = () => {
-  const [isSmallScreen, setIsSmallScreen] = useState(false);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsSmallScreen(window.innerWidth < 766);
-    };
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
   return (
-    <div className="relative  md:h-screen overflow-hidden 2xl:w-[1440px] w-auto mx-auto">
-      {!isSmallScreen && (
-        <div className="absolute inset-0 bg-black bg-cover bg-center">
-          <img
-            src={hrSol}
-            alt="solution background"
-            className="w-full h-full object-cover"
-          />
-        </div>
-      )}
-
-      <div className="relative flex justify-center items-center xs:bg-black md:bg-transparent">
-        <div className="w-24 h-24 ml-38 p-36 flex flex-wrap">
-          <h1 className=" text-lg font-semibold text-zinc-50">
-            HR Solutions That Empower Your Business_ Comprehensive Services
+    <>
+      <div className="relative min-h-[500px] 2xl:w-[1440px] w-auto mx-auto my-14">
+        <div
+          className="hidden md:block bg-cover bg-center bg-no-repeat absolute inset-0"
+          style={{ backgroundImage: `url(${hrSol})` }}
+        ></div>
+        <div className="md:hidden absolute inset-0 bg-black opacity-85"></div>
+        <div className="absolute top-0.5 right-0 p-4 w-[35rem] h-auto mt-5 mx-3 xs:flex xs:flex-wrap ">
+          <h1 className="text-white text-xl font-bold xs3:text-2xl xs:mx-6">
+            HR Solutions That Empower Your Business: Comprehensive Services
             Tailored to Your Needs
           </h1>
-          <p className="text-white">
-            Navigate the complexities of talent management with ease. Our
+          <p className="text-white text-lg mt-7">
+            Navigate the complexities of talent management with ease. Our Human
+            Resource services are designed to align with your business strategy,
+            ensuring a seamless integration of recruitment, development, and
+            retention strategies. With a focus on innovation and efficiency, we
+            help you build a robust workforce that drives your business success.
+            Partner with us for customized HR solutions that foster a dynamic
+            and engaging work environment
           </p>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

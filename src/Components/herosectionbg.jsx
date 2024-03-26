@@ -9,7 +9,7 @@ import Logiherosection from "./Logistics/herosection";
 import Herosection1 from "./BusinessCompliance/herosection";
 import ITherosetion from "./ITSecurity/herosetion";
 import HeroSectionHR from "./HumenResource/HeroSection";
-import HerosectionService from "./services/herosection";
+import HerosectionService from "./Services/Herosection";
 
 import bgimg from "../assets/service-bg.png";
 import HeroAbout from "./AboutUs/Hero";

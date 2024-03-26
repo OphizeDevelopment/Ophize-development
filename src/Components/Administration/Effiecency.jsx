@@ -35,7 +35,7 @@ const Efficiency = () => {
               Business
             </p>
           </div>
-          <div className="grid md:grid-cols-2 md:grid-rows-4 lg:grid-cols-2 2xl:grid-cols-2 2xl:grid-rows-2 p-5 gap-7  items-center">
+          <div className="grid md:grid-cols-2 md:grid-rows-4 lg:grid-cols-2 2xl:grid-cols-2 2xl:grid-rows-2 p-5 gap-12 items-center">
             <OptimizingCard
               title="Administrative Support"
               description="Streamline your schedule with our premium administrative support tailored to meet your business needs."

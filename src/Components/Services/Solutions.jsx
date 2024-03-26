@@ -78,6 +78,7 @@ const SolutionsService = () => {
       id: 9,
       imgSrc: Sr9,
       title: "Business Strategic",
+      url: "/businessstrategic",
       description:
         "Strategic planning for a future-proof business. Navigate market complexities with our expert insights.",
     },

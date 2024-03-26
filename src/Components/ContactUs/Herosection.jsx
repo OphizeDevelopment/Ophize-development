@@ -2,7 +2,7 @@ const HerosectionContact = () => {
   return (
     <>
     <div className="flex justify-center">
-      <div className="text-center p-5 2xl:w-[1440px] w-auto">
+      <div className="text-center p-5 2xl:w-[1440px] w-auto md:my-10">
         <h1 className="text-xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold tracking-wide text-center text-white">
           Connect with Our Experts Today
         </h1>

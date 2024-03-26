@@ -7,21 +7,21 @@ const TechnologiesServices = () => {
     <div className=" bg-[#EBEFFF]">
       <div className="grid grid-cols-1 md:grid-cols-2 justify-center  bg-[#EBEFFF] my-14 2xl:w-[1440px] w-full mx-auto">
         <div className="mx-9 ">
-          <div className="">
-            <h1 className="md:text-4xl xs3:text-2xl text-xl font-bold mt-2">
+          <div className="py-5">
+            <h1 className="md:text-2xl xs3:text-2xl text-lg font-bold mt-2">
               Streamlining Go-to-Market Strategies with Advanced Technologies
             </h1>
           </div>
         </div>
         <div className=" text-start text-slate-500 font-medium 2xl:text-2xl 4xl:text-3xl sm:text-xl md:text-base xs:text-lg">
-          <div className="mx-9 mt-5">
-            <p >
+          <div className="mx-9 mt-5 py-2">
+            <p className="text-justify">
               At Ophize, we simplify the complex. Our mission is to empower your
               go-to-market teams with cutting-edge tools that foster
               collaboration, drive innovation, and deliver deep analytical
               insights.
             </p>
-            <p className="mt-5">
+            <p className="mt-5 text-justify">
               We are dedicated to crafting comprehensive solutions that tackle
               your most challenging problems and yield tangible results.
             </p>
@@ -37,26 +37,26 @@ const TechnologiesServices = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 my-14 pb-5  bg-[#EBEFFF] sm:items-center m-7 2xl:w-[1440px] w-auto mx-auto -mt-14 items-center">
 
         <div className="mx-9">
-          <h1 className="text-2xl font-medium 2xl:text-2xl 4xl:text-5xl">
+          <h1 className="text-xl font-medium 2xl:text-2xl 4xl:text-5xl">
             200+ Experts
           </h1>
-          <p className="text-slate-500 pt-3 2xl:text-2xl 4xl:text-3xl sm:text-xl md:text-base xs:text-lg">
+          <p className="text-slate-500 pt-3 2xl:text-2xl 4xl:text-3xl sm:text-xl md:text-base xs:text-lg text-justify">
             Ophize has expanded from a specialized team to over 200 experts in
             services, committed to simplifying business.
           </p>
         </div>
         <div className="mx-9">
-          <h1 className="text-2xl font-medium 2xl:text-2xl 4xl:text-5xl">
+          <h1 className="text-xl font-medium 2xl:text-2xl 4xl:text-5xl">
             1000+ Businesses Served
           </h1>
-          <p className="text-slate-500 pt-3 2xl:text-2xl 4xl:text-2xl sm:text-xl md:text-base xs:text-lg">
+          <p className="text-slate-500 pt-3 2xl:text-2xl 4xl:text-2xl sm:text-xl md:text-base xs:text-lg text-justify">
             More than 10,000 businesses have entrusted Ophize with their service
             needs, a testament to our effective strategies and client-focused
             services.
           </p>
         </div>
         <div className="mx-9">
-          <h1 className="text-2xl font-medium 2xl:text-2xl 4xl:text-5xl">
+          <h1 className="text-xl font-medium 2xl:text-2xl 4xl:text-5xl">
             160,000+ Customers
           </h1>
           <p className="text-slate-500 pt-3 2xl:text-2xl 4xl:text-2xl sm:text-xl md:text-base xs:text-lg">

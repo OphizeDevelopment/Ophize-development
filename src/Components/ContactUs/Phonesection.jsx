@@ -1,5 +1,6 @@
-import telephoneicon from "../../assets/contactPhone.png"
-import messageicon from "../../assets/contactEmail.png"
+import telephoneicon from "../../assets/contactPhone.png";
+import messageicon from "../../assets/contactEmail.png";
+import ContactForm from "../ContactForm";
 
 const Phonesection = () => {
   return (
@@ -23,6 +24,9 @@ const Phonesection = () => {
             <h4 className="text-[#305197] font-bold">info@ophize.com</h4>
           </div>
         </div>
+      </div>
+      <div className="px-6 my-10 flex justify-center items-center">
+        <ContactForm />
       </div>
     </>
   );
