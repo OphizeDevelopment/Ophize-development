@@ -25,7 +25,7 @@ const Efficiency = () => {
   return (
     <>
       <div className="flex justify-center">
-        <div className="2xl:w-[1440px] w-auto mx-8 mt-5 mb-5">
+        <div className="2xl:w-[1440px] w-auto mx-8 my-14">
           <div className="m-5 2xl:pl-44">
             <h1 className="capitalize font-bold tracking-wide xl:text-4xl lg:text-3xl sm:text-2xl  w-full xs:text-xl ">
               Optimizing Efficiency :

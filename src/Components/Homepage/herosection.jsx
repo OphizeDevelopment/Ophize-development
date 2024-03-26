@@ -16,9 +16,11 @@ const HeroSection = () => {
             services, dedicated support, and strategic innovation designed to
             elevate your business to new heights.
           </p>
-          <button className="text-white bg-[#292930] lg:px-5 lg:py-3 px-3 py-2 rounded-md tracking-wide">
-            Our Services
-          </button>
+          <a href="/services">
+            <button className="text-white bg-[#292930] lg:px-5 lg:py-3 px-3 py-2 rounded-md tracking-wide">
+              Our Services
+            </button>
+          </a>
         </div>
       </div>
     </div>

@@ -1,6 +1,14 @@
 import img from "../../assets/itsecurity-side.png";
 
 const process = () => {
+
+  const scrollToServices =()=>{
+    const servicesection = document.getElementById("services");
+    if(servicesection){
+      servicesection.scrollIntoView({behavior:"smooth"})
+    }
+  };
+
   return (
     <>
       <div>
@@ -17,7 +25,7 @@ const process = () => {
               blend of expertise and innovation that has been strengthening
               digital infrastructures seamlessly for over three years.
             </p>
-            <button className="capitalize bg-[#305197] px-4 sm:px-5 md:px-10 py-2 md:py-3 rounded-lg text-white text-sm sm:text-base">
+            <button onClick={scrollToServices} className="capitalize bg-[#305197] px-4 sm:px-5 md:px-10 py-2 md:py-3 rounded-lg text-white text-sm sm:text-base">
               Learn More
             </button>
           </div>

@@ -14,9 +14,11 @@ const HeroSection = () => {
               cybersecurity and full-scale IT support for maximum safety and
               efficiency
             </p>
-            <button className="capitalize bg-[#305197] px-5 py-2 sm:px-10 sm:py-3 rounded-lg text-white sm:text-base text-sm">
-              Contact us
-            </button>
+            <a href="/contactus">
+              <button className="capitalize bg-[#305197] px-5 py-2 sm:px-10 sm:py-3 rounded-lg text-white sm:text-base text-sm">
+                Contact us
+              </button>
+            </a>
           </div>
 
           <div>

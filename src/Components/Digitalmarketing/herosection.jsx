@@ -15,9 +15,11 @@ const herosection = () => {
             Forging Future Connections: Tailored Tactics for Interactive
             Audience Growth
           </p>
-          <button className="capitalize bg-[#305197] px-5 py-2 sm:px-10 sm:py-3 rounded-lg text-white text-sm">
-            Contact us
-          </button>
+          <a href="/contactus">
+            <button className="capitalize bg-[#305197] px-5 py-2 sm:px-10 sm:py-3 rounded-lg text-white text-sm">
+              Contact us
+            </button>
+          </a>
         </div>
         <div className="flex md:justify-normal justify-center md:mt-32 flex-start">
           <img
