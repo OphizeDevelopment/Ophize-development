@@ -15,10 +15,10 @@ const BpoSection = () => {
               <img src={patternimage} className="mr-2 " />
               Why Us
             </p>
-            <h1 className="text-2xl pt-2  font-bold 2xl:text-4xl 4xl:text-5xl">
+            <h1 className="text-xl pt-2  font-bold 2xl:text-2xl 4xl:text-5xl">
               Why Ophize is Your Ideal BPO Partner
             </h1>
-            <p className="text-slate-500 pt-3 2xl:text-2xl 4xl:text-3xl sm:text-xl md:text-base xs:text-lg">
+            <p className="text-slate-500 pt-3 2xl:text-2xl 4xl:text-3xl sm:text-xl md:text-base xs:text-lg text-justify">
               At Ophize,we redefine business process outsourcing by providing
               exceptional customer service, technical support, and back-office
               solutions. Our global reach and expertise empower your business to
@@ -28,11 +28,11 @@ const BpoSection = () => {
               With our innovative approaches and commitment to quality, we help
               you transform challenges into opportunities.
             </p>
-            <p className="flex items-center text-xl 2xl:text-2xl 4xl:text-4xl mb-4 mt-4">
+            <p className="flex items-center text-lg 2xl:text-2xl 4xl:text-4xl mb-4 mt-4">
               <img src={deiveryimage} className="mr-3" />
               Delivery on Time
             </p>
-            <p className="flex items-center text-xl 2xl:text-2xl 4xl:text-4xl">
+            <p className="flex items-center text-lg 2xl:text-2xl 4xl:text-4xl">
               <img src={serviceexcellenceimage} className="mr-3" />
               Service Excellence
             </p>

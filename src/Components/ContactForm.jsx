@@ -38,7 +38,7 @@ const onSumbit = async (values, { setSubmitting, resetForm }) => {
 const ContactForm = () => {
   return (
     <>
-      <div className=" flex md:flex-row flex-col justify-center items-center gap-10">
+      <div className=" flex md:flex-row flex-col justify-center items-center gap-10 ">
         <div className="flex flex-col gap-5 h-auto">
           <div className="items-start flex flex-col">
             <h1 className=" text-3xl font-bold xl:text-4xl xs2:text-2xl mb-5">

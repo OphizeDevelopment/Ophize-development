@@ -5,7 +5,7 @@ const Excellence = () => {
   return (
     <>
       <div className="flex justify-center items-center">
-        <div className="flex flex-col justify-center items-center   m-7 2xl:w-[1140px]">
+        <div className="flex flex-col justify-center items-center   my-14 mx-12 2xl:w-[1140px] w-auto">
           <div className="flex flex-col md:flex-row justify-center items-center gap-9  w-full ">
             <img src={excellenceImg} alt="excellence image" />
             <div className="m-5">
@@ -20,7 +20,7 @@ const Excellence = () => {
             </div>
           </div>
           <div className="mx-4 mt-5">
-            <p className="text-black md:text-base text-xs font-medium tracking-wide text-center xs:line-clamp-6 md:line-clamp-none">
+            <p className="text-black md:text-base text-xs font-medium tracking-wide xs:line-clamp-6 md:line-clamp-none text-justify">
               Explore the breadth of our Administration Services designed to
               enhance operational efficiency across your enterprise. From the
               essentials of Administrative and Legal Support to the nuanced

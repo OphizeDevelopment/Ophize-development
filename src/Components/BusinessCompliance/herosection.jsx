@@ -4,7 +4,7 @@ const herosection = () => {
   return (
     <>
       <div className="w-full 2xl:w-[1440px] mx-auto flex justify-center ">
-        <div className=" flex flex-col text-white  md:flex-row  justify-center items-center gap-5 xs:text-center md:text-start m-6">
+        <div className=" flex flex-col text-white  md:flex-row  justify-center items-center gap-9 xs:text-center md:text-start m-6">
           <div className="flex flex-col  justify-center md:items-start items-center  gap-5 lg:w-1/2">
             <h1 className="text-xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl font-bold tracking-wide uppercase ">
               business compliances
@@ -20,11 +20,11 @@ const herosection = () => {
               Request a Quote
             </button>
           </div>
-          <div>
+          <div className="flex items-center justify-center">
             <img
               src={businessHero}
               alt="Software Development"
-              className="md:w-auto w-60"
+              className="md:w-auto md:h-[30rem] h-auto"
             />
           </div>
         </div>

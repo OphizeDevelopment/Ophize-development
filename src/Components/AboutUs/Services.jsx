@@ -14,7 +14,7 @@ const ServicesAbout = () => {
             <div>
               
 
-              <h1 className="md:text-4xl xs3:text-2xl text-xl font-bold">
+              <h1 className="md:text-2xl xs3:text-2xl text-xl font-bold">
                 Benefits of Service
               </h1>
               <p className="text-inherit mt-3 text-slate-500 md:text-lg xs3:text-base text-base">
@@ -83,7 +83,7 @@ const ServicesAbout = () => {
 
           <div className="">
             <div className="mt-14">
-              <h1 className="md:text-4xl xs3:text-2xl text-xl font-bold">
+              <h1 className="md:text-2xl xs3:text-2xl text-xl font-bold">
                 How It Works
               </h1>
               <p className="text-slate-500 md:text-lg xs3:text-base text-lg mt-4">

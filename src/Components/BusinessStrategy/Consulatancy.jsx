@@ -15,14 +15,14 @@ const Consultancy = () => {
             <h1 className="text-[#353535] md:text-3xl xs3:text-2xl text-xl tracking-wide font-bold">
               Strategic Business Consultancy Solutions
             </h1>
-            <p className="md:text-lg xs3:text-base text-sm">
+            <p className="md:text-lg xs3:text-base text-sm text-justify">
               Explore the breadth of our strategic business expertise with a
               portfolio of services tailored to enhance your organization's
               strategic planning and execution. Our consultancy spans all core
               business functions, ensuring integrated and visionary leadership
               for sustainable growth.
             </p>
-            <p className="md:text-lg xs3:text-base text-sm">
+            <p className="md:text-lg xs3:text-base text-sm text-justify">
               Keep in mind that to implement these changes into the actual
               image, you would need to use a graphic design tool or service. If
               you need assistance with this or any other text modifications,
@@ -41,7 +41,7 @@ const Consultancy = () => {
             <h1 className="text-[#353535] md:text-3xl xs3:text-2xl text-xl tracking-wide font-bold">
               Innovative Strategic Business Advisory
             </h1>
-            <p className="md:text-lg xs3:text-base text-sm">
+            <p className="md:text-lg xs3:text-base text-sm text-justify">
               Embark on a transformative journey with our Strategic Business
               Advisory services. Our comprehensive solutions are crafted to
               fortify your organization's strategic planning and management

@@ -6,6 +6,7 @@ import Clients from "../Components/clients";
 import Global from "../Components/Homepage/global";
 import Contactus from "../Components/contactus";
 import Footer from "../Components/footer";
+import ScrollToTop from "../Components/ScrollToTop";
 const Homepage = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const Homepage = () => {
       <Global />
       <Contactus />
       <Footer />
+      <ScrollToTop />
     </>
   );
 };

@@ -1,20 +1,16 @@
-import adminHero from "../../assets/administrationHero.png";
+import adminHero from "../../assets/administrationHero1.png";
 
 const Hero = () => {
   return (
     <>
       <div className="flex justify-center">
         <div className="flex md:flex-row flex-col md:px-24 my-16 p-10 xs:gap-5 2xl:w-[1440px] w-auto md:p-16">
-          <div className="flex items-center justify-center w-full md:w-1/3">
-            <img
-              src={adminHero}
-              alt="administration"
-              className="   "
-            />
+          <div className="flex items-end md:mb-0 mb-8">
+            <img src={adminHero} alt="administration" className="   " />
           </div>
-          <div className="flex flex-col justify-center w-full md:w-2/3">
+          <div className="flex justify-center w-full md:w-2/3">
             <div className="text-white flex flex-col gap-8 md:items-start items-center w-auto flex-end  ">
-              <h1 className="uppercase xl:text-5xl xs2:text-4xl text-2xl text-center font-semibold tracking-wider ">
+              <h1 className="uppercase xl:text-5xl xs2:text-4xl text-2xl text-start font-semibold tracking-wider mt-3 ">
                 administration services
               </h1>
               <p className="capitalize xl:text-3xl xs2:text-xl tracking-wide md:text-start text-center">
