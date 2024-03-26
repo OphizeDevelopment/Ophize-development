@@ -54,7 +54,7 @@ const services = () => {
   return (
     <>
       <div>
-        <div className="flex flex-col justify-center items-center gap-10 px-10 md:py-36 py-16">
+        <div className="flex flex-col justify-center items-center gap-10 px-10 md:py-36 py-16" id="services">
           <h1 className="md:text-4xl sm:text-3xl text-lg font-bold sm:w-[40rem] text-center">
             Manage your entire community in a single system
           </h1>

@@ -1,6 +1,14 @@
 import graph from "../../assets/graph.png";
 
 const Performance = () => {
+
+  const scrollToServices =()=>{
+    const servicesection = document.getElementById("services");
+    if(servicesection){
+      servicesection.scrollIntoView({behavior:"smooth"})
+    }
+  };
+
   return (
     <div className="flex justify-center items-center px-4 md:py-10 md:px-10">
       <div className="flex flex-col md:flex-row gap-8 md:gap-28 items-center w-full 2xl:max-w-[1440px] mx-auto">
@@ -22,13 +30,16 @@ const Performance = () => {
               business goals and foster enduring success.
             </p>
           </div>
-          <h2 className="text-[#305197] text-lg md:text-xl mt-6">
-            Explore Our Strategies
-          </h2>
+          <button onClick={scrollToServices}>
+           
+            <h2 className="text-[#305197] text-lg md:text-xl mt-6">
+              Explore Our Strategies
+            </h2>
+          </button>
         </div>
       </div>
     </div>
   );
 };
- 
+
 export default Performance;

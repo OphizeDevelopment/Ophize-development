@@ -12,12 +12,15 @@ const herosection = () => {
             <p className="xs2:font-semibold xl:text-3xl xs2:text-xl text-xs md:mt-8 xs2:mt-4 mt-2">
               Make your vision in future business development.
             </p>
-            <button
-              className="capitalize bg-[#305197] px-5 py-2
+            <a href="/contactus">
+             
+              <button
+                className="capitalize bg-[#305197] px-5 py-2
            sm:px-10 sm:py-3 rounded-lg text-white text-sm md:mt-8 mt-4"
-            >
-              Contact us
-            </button>
+              >
+                Contact us
+              </button>
+            </a>
           </div>
           <div>
             <img src={softwareimg} alt="Software Development" />

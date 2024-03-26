@@ -3,6 +3,7 @@ import f2 from "../../assets/f2.png";
 import f3 from "../../assets/f3.png";
 import f4 from "../../assets/f4.png";
 import f5 from "../../assets/f5.png";
+import React from "react";
 
 const services = () => {
   const services = [
@@ -47,9 +48,8 @@ const services = () => {
 
   return (
     <>
-      <div className="w-full xs3:px-20 px-10 py-10 md:py-20"> 
+      <div className="w-full xs3:px-20 px-10 py-10 md:py-20" id="services">
         <div className="flex flex-col gap-5 lg:gap-10">
-
           <div className=" text-center flex flex-col gap-4">
             <h1 className="text-[#353535] md:text-4xl xs3:text-2xl text-xl tracking-wide font-bold">
               Better Strategy With <br />

@@ -13,12 +13,15 @@ const herosection = () => {
               Streamline regulatory compilance with our tailored solutions that
               protect your business intergrity and continuity
             </p>
-            <button
-              className="capitalize bg-[#305197] px-5 py-2
+            <a href="/contactus">
+              
+              <button
+                className="capitalize bg-[#305197] px-5 py-2
            sm:px-10 sm:py-3 rounded-lg text-white text-sm md:mt-8 mt-4 mb-5"
-            >
-              Request a Quote
-            </button>
+              >
+                Contact us
+              </button>
+            </a>
           </div>
           <div className="flex items-center justify-center">
             <img

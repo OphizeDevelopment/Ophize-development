@@ -21,7 +21,7 @@ const ServiceCard = ({ title, description, icon }) => {
 const Services = () => {
   return (
     <>
-      <div className="w-full flex justify-center items-center px-10 py-10 md:mt-20 mt-8">
+      <div className="w-full flex justify-center items-center px-10 py-10 md:mt-20 mt-8" id="services">
         <div className="2xl:w-[1440px] w-auto flex md:flex-row flex-col md:gap-44 gap-10 justify-center ">
           <div className="xl:w-[30%] flex flex-col gap-4">
             <h1 className="text-[#305197] xl:text-4xl text-2xl font-semibold tracking-wide">
@@ -32,7 +32,7 @@ const Services = () => {
               ecosystem, fine-tuning each step to perfection, ensuring that not
               a single pixel is out of place.
             </p>
-            <h1 className="text-[#305197] text-sm cursor-pointer">See More</h1>
+            
           </div>
           <div className="grid grid-cols-2 gap-10">
             <ServiceCard
